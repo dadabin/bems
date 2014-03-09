@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="354"
+   name=""
+   committed-date="2012-08-18T08:53:58.518362Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/html/dataAnalysis"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="253"
+   name="dataAnalysis.floor.html"
+   text-time="2012-07-21T01:40:35.738479Z"
+   committed-date="2012-07-20T01:20:35.889571Z"
+   checksum="2a249c44b0c4115fef45576d75e0498b"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-21T01:40:34.974436Z"/>
+<entry
+   committed-rev="319"
+   name="dataAnalysis.water.html"
+   text-time="2012-07-26T02:29:41.660627Z"
+   committed-date="2012-07-26T02:33:41.175915Z"
+   checksum="c886105087ea82644048b3b46ae6dba6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-25T17:03:56.321646Z"/>
+<entry
+   committed-rev="347"
+   name="dataAnalysis.telephone.html"
+   text-time="2012-08-16T16:38:59.667480Z"
+   committed-date="2012-08-17T02:44:40.839623Z"
+   checksum="fe800e93db11bc6ecfea1ce26abadcb0"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-25T17:03:56.330646Z"/>
+<entry
+   committed-rev="347"
+   name="dataAnalysis.download.html"
+   text-time="2012-08-17T02:17:36.463335Z"
+   committed-date="2012-08-17T02:44:40.839623Z"
+   checksum="4b71fbcdbd3fd92a36ebdf041c9c2e24"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-25T17:03:56.388650Z"/>
+<entry
+   committed-rev="354"
+   name="dataAnalysis.ammeter.html"
+   text-time="2012-08-18T14:30:00.304379Z"
+   committed-date="2012-08-18T08:53:58.518362Z"
+   checksum="b72217764d538dc0df8c346c22ab863f"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-08-18T14:30:00.287378Z"/>
+</wc-entries>

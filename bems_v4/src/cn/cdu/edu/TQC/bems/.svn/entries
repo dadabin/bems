@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/src/cn/cdu/edu/TQC/bems"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="344"
+   name="Utils.java"
+   text-time="2012-08-16T16:04:19.414497Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="a2ea76ffc548137f74d990433d48b6ab"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-23T14:09:23.066650Z"/>
+<entry
+   committed-rev="299"
+   name="ExportExcel.java"
+   text-time="2012-07-25T02:05:27.868121Z"
+   committed-date="2012-07-25T02:11:00.202466Z"
+   checksum="eb47af57ee16846d3476e5bae3ad43ee"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.373115Z"/>
+<entry
+   committed-rev="309"
+   name="StringUtills.java"
+   text-time="2012-07-25T16:24:47.351292Z"
+   committed-date="2012-07-25T17:04:55.195576Z"
+   checksum="888cc882a072bb2b26c14cc2fa13cc38"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   name="listener"
+   kind="dir"/>
+<entry
+   name="filter"
+   kind="dir"/>
+<entry
+   name="db"
+   kind="dir"/>
+<entry
+   committed-rev="274"
+   name="DownLoadUtil.java"
+   text-time="2012-07-21T05:34:16.174402Z"
+   committed-date="2012-07-21T06:48:14.611101Z"
+   checksum="ff03cc41b7394557f592e19a87ae5937"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.925261Z"/>
+<entry
+   name="Algorithm"
+   kind="dir"/>
+<entry
+   committed-rev="289"
+   name="JfreeUtils.java"
+   text-time="2012-07-24T08:38:58.249170Z"
+   committed-date="2012-07-24T08:35:09.224396Z"
+   checksum="da9ded39e3e91a71208f322fce0610ca"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-24T08:38:58.106162Z"/>
+<entry
+   name="service"
+   kind="dir"/>
+<entry
+   committed-rev="323"
+   name="createExcel.java"
+   text-time="2012-07-26T07:30:39.497476Z"
+   committed-date="2012-07-26T07:09:11.994550Z"
+   checksum="434fe41609aaf5d26e5672ef6274bc88"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-26T07:30:39.485475Z"/>
+<entry
+   committed-rev="294"
+   name="Email_Autherticator.java"
+   text-time="2012-07-24T12:56:54.407229Z"
+   committed-date="2012-07-24T13:14:47.911866Z"
+   checksum="b0cd6d034466744e0538c65a39a8c7a4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.223336Z"/>
+<entry
+   committed-rev="345"
+   name="BackMysql.java"
+   text-time="2012-08-17T02:39:57.154011Z"
+   committed-date="2012-08-17T00:57:44.845195Z"
+   checksum="1136b69526d17e436f04e23ab03aae77"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-17T02:39:57.137010Z"/>
+<entry
+   committed-rev="345"
+   name="FileDownloadUtils.java"
+   text-time="2012-08-17T02:39:57.164011Z"
+   committed-date="2012-08-17T00:57:44.845195Z"
+   checksum="ae04a0ae219c41aa62a934f040e93c26"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-17T02:39:57.144010Z"/>
+<entry
+   committed-rev="329"
+   name="Constant.java"
+   text-time="2012-08-10T01:37:10.729315Z"
+   committed-date="2012-08-10T05:49:18.695807Z"
+   checksum="1fcf58a17e9852193ac89085e848a61c"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.229336Z"/>
+<entry
+   committed-rev="352"
+   name="Analasis.java"
+   text-time="2012-08-18T14:29:59.323322Z"
+   committed-date="2012-08-17T09:52:43.653600Z"
+   checksum="6b367a95dc1ea2824a95934ab243c484"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:29:59.221317Z"/>
+<entry
+   committed-rev="223"
+   name="Cookies.java"
+   text-time="2012-07-21T01:40:33.378344Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="43f8117c5c4655676afd032c8639505a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.251337Z"/>
+<entry
+   committed-rev="319"
+   name="ReadExcel.java"
+   text-time="2012-07-26T01:29:59.463737Z"
+   committed-date="2012-07-26T02:33:41.175915Z"
+   checksum="f1cef01c189986aea6566455fbd9df05"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-23T14:09:23.176650Z"/>
+<entry
+   committed-rev="328"
+   name="SendMail.java"
+   text-time="2012-07-27T07:53:46.903600Z"
+   committed-date="2012-07-29T03:08:52.175527Z"
+   checksum="18566785ee3f0d380f4fb682480ec662"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   name="action"
+   kind="dir"/>
+<entry
+   committed-rev="352"
+   name="AmmeterTypeFloorAndId.java"
+   text-time="2012-08-18T14:29:59.350324Z"
+   committed-date="2012-08-17T09:52:43.653600Z"
+   checksum="612975f74b33a998d9a837b8094e7fc9"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:29:59.297321Z"/>
+<entry
+   committed-rev="329"
+   name="SendEMS.java"
+   text-time="2012-08-10T05:46:43.028716Z"
+   committed-date="2012-08-10T05:49:18.695807Z"
+   checksum="e3540327e90b12610770f4e57b58b727"
+   last-author="lpm"
+   kind="file"/>
+</wc-entries>

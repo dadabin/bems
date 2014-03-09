@@ -1,0 +1,32 @@
+
+<table width="100%" border="1">
+  <tr>
+    <td colspan="7" align="center" bgcolor="#6795B4">人员列表</td>
+  </tr>
+  <tr align="center" bgcolor="#EEE">
+  	<td >选择<input type="checkbox" id="look_userList_emergency_checkAll" name="checkAll"></td>
+    <td >头像</td>
+    <td >姓名</td>
+    <td >电话号码</td>
+    <td>职务</td>
+    <td>email</td>
+    <td>操作</td>
+  </tr>
+  {#foreach $T.staff as record}
+  	<tr align="center">
+  	<td> <input class="checkOne" type="checkbox" name="user_name" value="{$T.record.staffId}"> </td>
+    <td> {$T.record.name} </td>
+    <td> {$T.record.name} </td>
+    <td> {$T.record.phoneNumber} </td>
+    <td> {#if $T.record.role==1}应急小组组长{#/if} {#if $T.record.role==2}应急小组组员{#/if}</td>
+    
+    <td> {$T.record.email} </td>
+    <td><a href="#">删除</a></td>
+    
+  </tr>
+   {#/for}
+    <tr>
+    <td colspan="7" align="center" bgcolor="#6795B4"><input type="button" class="user_manage_emergency_member_btn"
+					id="user_manage_emergency_add_member_btn" value="继续添加应急小组成员"/></td>
+  </tr>
+</table>

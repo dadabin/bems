@@ -1,0 +1,46 @@
+.user_manage_look_table
+ {
+ 	margin-left:160px;
+	width:70%;
+ }
+ .user_manage_look_table img
+ {
+ 	width:55px;
+	height:65px;
+	margin:1px;
+ }
+ 
+ .hide_at_first
+ {
+ 	display:none;
+ }
+ 
+select {
+	position:relative;
+	float:none;
+    padding:3px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width: 120px;
+}
+
+#user_manage_update_div table tr
+{
+	background-color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

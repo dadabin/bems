@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/src/cn/cdu/edu/TQC/bems/db/dao/impl"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="344"
+   name="InformRecordDaoImpl.java"
+   text-time="2012-08-16T15:00:40.282055Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="b6eb38cedeb2cd734ce96e3ff09b1484"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.608129Z"/>
+<entry
+   committed-rev="352"
+   name="AmmeterDaoImpl.java"
+   text-time="2012-08-18T14:29:57.484217Z"
+   committed-date="2012-08-17T09:52:43.653600Z"
+   checksum="b83ad69746b039ad9365d3095c47e537"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:29:57.446215Z"/>
+<entry
+   committed-rev="345"
+   name="EmergncyStaffDaoImpl.java"
+   text-time="2012-08-17T02:39:56.784990Z"
+   committed-date="2012-08-17T00:57:44.845195Z"
+   checksum="e1032e66243c730fc06ed65fa65f0b4a"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-17T02:39:56.745988Z"/>
+<entry
+   committed-rev="223"
+   name="BuildingDaoImpl.java"
+   text-time="2012-07-21T01:40:29.790139Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e39b3c25e55fd9fd277125962a03199a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.655131Z"/>
+<entry
+   committed-rev="223"
+   name="PlaneRecordDaoImpl.java"
+   text-time="2012-07-21T01:40:29.796140Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e95f03c46b88ef120e9fa133a7760332"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.660132Z"/>
+<entry
+   committed-rev="318"
+   name="AmmeterAnalysisDaoImpl.java"
+   text-time="2012-07-26T02:32:09.299071Z"
+   committed-date="2012-07-26T01:40:49.284744Z"
+   checksum="1b05c5ab34f7fb7395d5b6c431394b73"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-26T02:32:09.267069Z"/>
+<entry
+   committed-rev="223"
+   name="PriceDaoImpl.java"
+   text-time="2012-07-21T01:40:30.122158Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b57d4af91b551fe4015a35aaca02281a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.671132Z"/>
+<entry
+   committed-rev="334"
+   name="UrlDaoImpl.java"
+   text-time="2012-08-13T02:40:51.560046Z"
+   committed-date="2012-08-12T14:11:32.546269Z"
+   checksum="7c6e9d118d310988c8ea01d44acce2be"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-13T02:40:51.503043Z"/>
+<entry
+   committed-rev="337"
+   name="StaffDaoImpl.java"
+   text-time="2012-08-13T02:45:05.464568Z"
+   committed-date="2012-08-15T08:44:47.291302Z"
+   checksum="24e19b07dbffe018c9735a3c2a9debc7"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-08-13T02:40:51.525044Z"/>
+<entry
+   committed-rev="337"
+   name="MeterDataDaoImpl.java"
+   text-time="2012-08-14T04:16:36.678738Z"
+   committed-date="2012-08-15T08:44:47.291302Z"
+   checksum="08c84128cf07fa1c3730179f77889507"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.685133Z"/>
+<entry
+   committed-rev="223"
+   name="PhoneDaoImpl.java"
+   text-time="2012-07-21T01:40:30.156160Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="ea83dd7ef7f6e632cdc579c4369808b6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.690133Z"/>
+<entry
+   committed-rev="223"
+   name="RibbonDaoImpl.java"
+   text-time="2012-07-21T01:40:30.163161Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="20e0d2cb0517244ea31d8bd5fb6106fe"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.694134Z"/>
+<entry
+   committed-rev="223"
+   name="TemplateDaoImpl.java"
+   text-time="2012-07-21T01:40:30.169161Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="011de96f5ba10645fef241660a81a2e3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.698134Z"/>
+<entry
+   committed-rev="223"
+   name="MeterDaoImpl.java"
+   text-time="2012-07-21T01:40:30.176161Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="1233321f4248cdffc6ab96feccdb1757"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.702134Z"/>
+<entry
+   committed-rev="223"
+   name="StaffDaoLPMImpl.java"
+   text-time="2012-07-21T01:40:30.183162Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8dd9c10c46e641269f34d52a21b333b1"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.706134Z"/>
+<entry
+   committed-rev="223"
+   name="RibbonTypeDaoImpl.java"
+   text-time="2012-07-21T01:40:30.197162Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="34acbca0a55accfd65845bed95d0386c"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.712135Z"/>
+<entry
+   committed-rev="223"
+   name="AnalysisReportDetailImpl.java"
+   text-time="2012-07-21T01:40:30.229164Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="f31bf368a0cb27f66bbd98f05b8ad183"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.732136Z"/>
+<entry
+   committed-rev="223"
+   name="AnalysisReportDaoImpl.java"
+   text-time="2012-07-21T01:40:30.236165Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b9377557123793f2721e057b9e9e2e7f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.736136Z"/>
+<entry
+   committed-rev="359"
+   name="FloorDaoImpl.java"
+   text-time="2012-08-17T09:24:05.158047Z"
+   committed-date="2012-08-18T14:38:09.616234Z"
+   checksum="df0ef6f474ffa811e1ee67f86518234e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.740136Z"/>
+<entry
+   committed-rev="266"
+   name="PhoneFeeDataDaoImpl.java"
+   text-time="2012-07-21T01:40:30.251166Z"
+   committed-date="2012-07-20T09:08:28.936758Z"
+   checksum="e4d38db1983d18cbe21e5f17d207a3f8"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.745137Z"/>
+<entry
+   committed-rev="337"
+   name="AmmeterDataDaoImpl.java"
+   text-time="2012-08-14T04:17:35.312091Z"
+   committed-date="2012-08-15T08:44:47.291302Z"
+   checksum="09d288a953dc38ef53afae5416f95cd5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.751137Z"/>
+<entry
+   committed-rev="332"
+   name="UrlRoleDaoImpl.java"
+   text-time="2012-08-13T02:40:51.630050Z"
+   committed-date="2012-08-12T14:05:52.683072Z"
+   checksum="b61b7514190c7696a322c5ee6db53642"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-13T02:40:51.549045Z"/>
+<entry
+   committed-rev="279"
+   name="EmergncyGroupDaoImpl.java"
+   text-time="2012-07-22T08:13:39.860629Z"
+   committed-date="2012-07-22T08:11:54.064441Z"
+   checksum="0208012acd0c0f5ce003df90b9991429"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-22T08:13:39.797625Z"/>
+<entry
+   committed-rev="223"
+   name="InformSettingDaoImpl.java"
+   text-time="2012-07-21T01:40:30.274167Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="0afc3a6e598ff600519b788e5f4d643b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.760137Z"/>
+</wc-entries>

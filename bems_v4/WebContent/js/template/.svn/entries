@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/template"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="jquery.fancybox-1.3.4.pack.js"
+   text-time="2012-07-21T01:40:48.520210Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8bc36a08c46719377528d962966ce37c"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.460207Z"/>
+<entry
+   committed-rev="274"
+   name="jquery-jtemplates.js"
+   text-time="2012-07-20T12:46:11.346000Z"
+   committed-date="2012-07-21T06:48:14.611101Z"
+   checksum="63fa7af426ec6efda3c3df528d6e6369"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="223"
+   name="show_ads.js"
+   text-time="2012-07-21T01:40:48.527211Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="64719ad746b64b7db9cd72973667838d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.467207Z"/>
+<entry
+   committed-rev="223"
+   name="excanvas.js"
+   text-time="2012-07-21T01:40:48.550212Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c5cf6229cac1d91d61ac535a97def7f8"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.475208Z"/>
+<entry
+   committed-rev="359"
+   name="functions.js"
+   text-time="2012-08-18T09:53:48.937551Z"
+   committed-date="2012-08-18T14:38:09.616234Z"
+   checksum="3b4541e902614ac6865c671e7c8441d4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-26T07:30:40.001505Z"/>
+<entry
+   committed-rev="223"
+   name="visualize.jQuery.js"
+   text-time="2012-07-21T01:40:48.582214Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="bc15b31d40a247fd101cdc9d0ae1181a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.488209Z"/>
+<entry
+   committed-rev="223"
+   name="fullcalendar.min.js"
+   text-time="2012-07-21T01:40:48.590214Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="a2c26f14cbfe36173232ad61a96020e4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.498209Z"/>
+<entry
+   committed-rev="223"
+   name="jquery.wysiwyg.js"
+   text-time="2012-07-21T01:40:48.597215Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="39ac937ad784be096b5cf4d8ed7e8862"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.506210Z"/>
+<entry
+   committed-rev="223"
+   name="enhance.js"
+   text-time="2012-07-21T01:40:48.605215Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="49d8e10a266fc2f29bd65ac403757eb6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.512210Z"/>
+</wc-entries>

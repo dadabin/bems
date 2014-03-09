@@ -1,0 +1,90 @@
+body{
+	font-size:14px;
+}
+
+select {
+	position:relative;
+	float:none;
+    padding:0px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width: 10px;
+	font-size:12px;
+	font-weight:lighter;
+}
+
+#dataAnalysis_ammeter_meunu_bar_div
+{
+	width:100%;
+	height:160px;
+	border-radius:4px;
+}
+
+#dataAnalysis_ammeter_meunu_bar_div ul li
+{
+	position:relative;
+	float:left;
+}
+
+#dataAnalysis_ammeter_meunu_bar_div ul li a
+{
+	border:0px;
+	border-radius:3px;
+	margin-right:0px;
+	
+} 
+
+#dataAnalysis_ammeter_meunu_bar_div ul li.ui-tabs-selected a 
+{
+	background: #ffffff; 
+	color:#4d4d4d;
+}
+#anylis_div
+{
+	position:relative;
+	margin-top:20px;
+	width:90%;
+	min-height:800px;
+	padding:10px 10px;
+}
+#anylis_table_div
+{
+	width:60%;
+	position:relative;
+	float:left;
+	margin-right:6%;
+	padding:10px 0px;
+}
+
+#anylis_content_div
+{
+	width:34%;
+	position:relative;
+	float:left;
+	padding:10px 0px;
+}
+
+#container_anylis_separator
+{
+	height:5px;
+	background-color:#666666;
+}
+#anylis_content_text_area
+{
+	margin-left:110px;
+}
+
+.hide_at_fisrt
+{
+	display:none;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/src/cn/cdu/edu/TQC/bems/db"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="286"
+   name="DBManager.java"
+   text-time="2012-07-23T14:09:23.006650Z"
+   committed-date="2012-07-23T13:43:23.896326Z"
+   checksum="8d413a4480b5e89b7d1d2341f38efc49"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-23T14:09:22.866650Z"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   name="bean"
+   kind="dir"/>
+<entry
+   committed-rev="337"
+   name="DB.java"
+   text-time="2012-08-14T02:39:26.623460Z"
+   committed-date="2012-08-15T08:44:47.291302Z"
+   checksum="4d00f2e81604169730a8046b8d07df20"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-24T08:38:58.032158Z"/>
+</wc-entries>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>数据分析</title>
+<link rel="stylesheet" href="css/dataCollection/dataCollect_ammeter.css">
+
+<script type="text/javascript">
+$(function () {
+    $(document).ready(function() {
+		
+        Highcharts.setOptions({
+            global: {
+                useUTC: false
+            }
+        });
+    //ajax填充下拉列表框
+	var url = $.getRootPath()+"/rest/ammeterService";
+	$.ajax({
+	        type: "get",
+	        dataType: "xml",
+	        url: url,
+			timeout: 1000,
+	        success: function(msg){
+	          buildSelect(msg);
+	        },
+			error:function(){
+				alert("获取数据失败！");
+			}
+	    });
+	function buildSelect(msg){
+		$(msg).find("ammeter").each(function(i){
+			var id_value=$(this).children("ammeterId").text(); //取文本
+			$("#ammeter_select_div").append("<option value="+id_value+">"+id_value+"</option>");
+			
+		});
+	}
+	//选择表，获取数据
+	//显示图表
+	showChart();
+	
+	//显示图表
+		function showChart(){
+			var chart;
+        chart = new Highcharts.Chart({
+            chart: {
+                renderTo: 'dynamic_update_ammeter_container',
+                type: 'spline',
+                marginRight: 10,
+                events: {
+                    load: function() {
+    
+                        // 每秒更新一次数据
+                        var series = this.series[0];
+                        setInterval(function() {
+                            var x = (new Date()).getTime(), //实时时间
+                                y = Math.random();			//随即数
+                            series.addPoint([x, y], true, true); //设定值
+                        }, 1000);
+                    }
+                }
+            },
+            title: {
+                text: '电表实时数据'
+            },
+            xAxis: {
+                type: 'datetime',
+                tickPixelInterval: 150
+            },
+            yAxis: {
+                title: {
+                    text: '电量值（w）'
+                },
+                plotLines: [{
+                    value: 0,
+                    width: 1,
+                    color: '#4572A7'
+                }]
+            },
+            tooltip: {
+                formatter: function() {
+                        return '<b>'+ this.series.name +'</b><br/>采集时间：'+
+                        Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', this.x) +'<br/>'+
+                        Highcharts.numberFormat(this.y, 2);
+                }
+            },
+            legend: {
+                enabled: false
+            },
+            exporting: {
+                enabled: false
+            },
+            series: [{
+                name: '实时采集数据',
+                data: (function() {
+                    // generate an array of random data
+                    var data = [],
+                        time = (new Date()).getTime(),
+                        i;
+    
+                    for (i = -19; i <= 0; i++) {
+                        data.push({
+                            x: time + i * 1000,//一秒更新一次
+                            y: Math.random()//生成随机数
+                        });
+                    }
+                    return data;
+                })()
+            }]
+        });
+		}
+        
+    });
+    
+});
+</script>
+</head>
+<body>
+<div id="ammeter_div">
+	仪表编号：<select id="ammeter_select_div" name="ammeter_select_div"></select>
+	<br>
+	<!--分割线--->
+	<hr id="container_anylis_separator"/>
+</div>
+
+
+
+<div id="dynamic_update_ammeter_container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+	</body>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="260"
+   name=""
+   committed-date="2012-07-20T03:07:52.728356Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/original"
+   last-author="tqc"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="sun.js"
+   text-time="2012-07-21T01:40:48.225194Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c2e5c3357bbbf8e57c07763f8f51d36f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.205192Z"/>
+<entry
+   committed-rev="223"
+   name="lpm.js"
+   text-time="2012-07-21T01:40:48.233194Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="66cdd5529d80209d71cd95c4e95e78f3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.211193Z"/>
+<entry
+   committed-rev="223"
+   name="dataAnalysis.js"
+   text-time="2012-07-21T01:40:48.240194Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="f0931505e4cb498a4de72a781133e53f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:48.217193Z"/>
+</wc-entries>

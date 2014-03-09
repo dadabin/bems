@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="282"
+   name=""
+   committed-date="2012-07-22T14:10:02.134983Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/images/msg"
+   last-author="lpm"
+   kind="dir"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="282"
+   name="ico01.gif"
+   text-time="2012-07-22T13:19:02.330596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="c5c3e170edf4803d531f2f6478795b5b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.541802Z"/>
+<entry
+   committed-rev="282"
+   name="navend.gif"
+   text-time="2012-07-22T13:19:02.227590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="fa8c80ccf8e1743b9da4fef57aeaf5ec"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.541744Z"/>
+<entry
+   committed-rev="282"
+   name="ico02.gif"
+   text-time="2012-07-22T13:19:02.332596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="20e33a31574ca8c74c617a5fb72101da"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.355791Z"/>
+<entry
+   committed-rev="282"
+   name="ico03.gif"
+   text-time="2012-07-22T13:19:02.333596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="d609bfe2ca1786cb4615b93f24da8935"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.297730Z"/>
+<entry
+   committed-rev="282"
+   name="ico04.gif"
+   text-time="2012-07-22T13:19:02.335596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="89d40c2abcb64c482d6ddf107f302fb3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.573746Z"/>
+<entry
+   committed-rev="282"
+   name="ico05.gif"
+   text-time="2012-07-22T13:19:02.336596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="554df164df81409e59f97959df8621ca"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.618806Z"/>
+<entry
+   committed-rev="282"
+   name="ico06.gif"
+   text-time="2012-07-22T13:19:02.337596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="c441fd8800c3b7c29772b519fae91200"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.290787Z"/>
+<entry
+   committed-rev="282"
+   name="ico07.gif"
+   text-time="2012-07-22T13:19:02.140585Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="1465dedeba4517a968a2bde1fd432b76"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.647808Z"/>
+<entry
+   committed-rev="282"
+   name="navbutton01.gif"
+   text-time="2012-07-22T13:19:02.222590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="e24746bab68761f76286ea3559a408fa"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.484741Z"/>
+<entry
+   committed-rev="282"
+   name="navbutton02.gif"
+   text-time="2012-07-22T13:19:02.223590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="e144f599db66f173f3abd36897042133"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.568803Z"/>
+<entry
+   committed-rev="282"
+   name="navbutton03.gif"
+   text-time="2012-07-22T13:19:02.225590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="523704f9b3fb27d0b2ae26a8811f307f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.163723Z"/>
+<entry
+   committed-rev="282"
+   name="navbutton04.gif"
+   text-time="2012-07-22T13:19:02.226590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="f6d9225970d510165430e4b4ec7444c2"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.390736Z"/>
+<entry
+   committed-rev="282"
+   name="nav01.gif"
+   text-time="2012-07-22T13:19:02.194588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="51aa316bc60ea07d08eb605f5b4d1c98"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.480798Z"/>
+<entry
+   committed-rev="282"
+   name="nav02.gif"
+   text-time="2012-07-22T13:19:02.196588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="5998728c92a3b86da42e79d4bf8347c3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.288730Z"/>
+<entry
+   committed-rev="282"
+   name="nav03.gif"
+   text-time="2012-07-22T13:19:02.197588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="d9bccbb5456a543ab34b09dc49e03cbe"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.254728Z"/>
+<entry
+   committed-rev="282"
+   name="nav04.gif"
+   text-time="2012-07-22T13:19:02.216589Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="870f00eaca7d4924409b3a00bc013826"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.515800Z"/>
+<entry
+   committed-rev="282"
+   name="line01.gif"
+   text-time="2012-07-22T13:19:02.184588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="a217492ce1c0d72b4724926ba8afe922"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.215726Z"/>
+<entry
+   committed-rev="282"
+   name="nav05.gif"
+   text-time="2012-07-22T13:19:02.217589Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="cab809bf19c5097c24f9d018095b55a7"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.532801Z"/>
+<entry
+   committed-rev="282"
+   name="nav06.gif"
+   text-time="2012-07-22T13:19:02.219590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="f7b7dc2f57f6f782d3eb9edcc102eee5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.235727Z"/>
+<entry
+   committed-rev="282"
+   name="nav07.gif"
+   text-time="2012-07-22T13:19:02.221590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="8b86f61d05075812fa717314907d1b39"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.364791Z"/>
+<entry
+   committed-rev="282"
+   name="newline.gif"
+   text-time="2012-07-22T13:19:02.229590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="40cd9f9b5325f0f95b8995463459ae2a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.673809Z"/>
+<entry
+   committed-rev="282"
+   name="newling.gif"
+   text-time="2012-07-22T13:19:02.230590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="d43113d2cfe0a300630858b8975e3770"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.563746Z"/>
+<entry
+   committed-rev="282"
+   name="ico11.gif"
+   text-time="2012-07-22T13:19:02.143585Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="b694e483a946158e2c0410e295881b50"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.324732Z"/>
+<entry
+   committed-rev="282"
+   name="ico12.gif"
+   text-time="2012-07-22T13:19:02.144585Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="47e996b8c5b7ac77a3477bb61737df14"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.333732Z"/>
+<entry
+   committed-rev="282"
+   name="spacer.gif"
+   text-time="2012-07-22T13:19:02.236591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="f7f26805de1a1f270e665bf7873d7e19"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.375735Z"/>
+<entry
+   committed-rev="282"
+   name="ico13.gif"
+   text-time="2012-07-22T13:19:02.175587Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="0842a4df5335c69dde6d995afe590ae9"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.144722Z"/>
+<entry
+   committed-rev="282"
+   name="button03.gif"
+   text-time="2012-07-22T13:19:02.307595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="529bc6198208055407ff124188cf3e82"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.520743Z"/>
+<entry
+   committed-rev="282"
+   name="button04.gif"
+   text-time="2012-07-22T13:19:02.308595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="5e825e9cd559d660c6495353d90b9a0d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.490799Z"/>
+<entry
+   committed-rev="282"
+   name="ico14.gif"
+   text-time="2012-07-22T13:19:02.176587Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="835d0f1a1a0bd6e4929fa15d656451de"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.264786Z"/>
+<entry
+   committed-rev="282"
+   name="ico15.gif"
+   text-time="2012-07-22T13:19:02.178587Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="74b637ebda60f4552306858c1de10e3e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.348733Z"/>
+<entry
+   committed-rev="282"
+   name="button05.gif"
+   text-time="2012-07-22T13:19:02.310595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="488952ca985741c9770a0653d88812fe"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.439739Z"/>
+<entry
+   committed-rev="282"
+   name="ico16.gif"
+   text-time="2012-07-22T13:19:02.180587Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="7353bb79434bfa816b314176420b4eb5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.417737Z"/>
+<entry
+   committed-rev="282"
+   name="button06.gif"
+   text-time="2012-07-22T13:19:02.312595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="b3db3609f662637e31c04a7dc317289d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.408737Z"/>
+<entry
+   committed-rev="282"
+   name="button07.gif"
+   text-time="2012-07-22T13:19:02.314595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="8812b83aeed30687b91f147eda3f0376"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.271729Z"/>
+<entry
+   committed-rev="282"
+   name="button08.gif"
+   text-time="2012-07-22T13:19:02.316595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="4617e6acc0c96e53f69a5e926f78d1cf"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.690810Z"/>
+<entry
+   committed-rev="282"
+   name="button09.gif"
+   text-time="2012-07-22T13:19:02.318595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="731034c62a9be7f8b43bd7a9129ce6d9"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.280729Z"/>
+<entry
+   committed-rev="282"
+   name="left.gif"
+   text-time="2012-07-22T13:19:02.183588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="ccd8b5621d37ff45e224f8257b554b4a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.182724Z"/>
+<entry
+   committed-rev="282"
+   name="top.gif"
+   text-time="2012-07-22T13:19:02.237591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="8d1119f91cf3bba749628b0fa4ee07e0"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.399736Z"/>
+<entry
+   committed-rev="282"
+   name="bu01.gif"
+   text-time="2012-07-22T13:19:02.245591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="c60613da23fecec6abf857ef9e3b427e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.245727Z"/>
+<entry
+   committed-rev="282"
+   name="bu02.gif"
+   text-time="2012-07-22T13:19:02.246591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="e156163b6a715c13d59b2b0531c72610"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.558803Z"/>
+<entry
+   committed-rev="282"
+   name="bu03.gif"
+   text-time="2012-07-22T13:19:02.248591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="ee0d548261a5c9261f56fa4510cd8f3c"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.262728Z"/>
+<entry
+   committed-rev="282"
+   name="bu04.gif"
+   text-time="2012-07-22T13:19:02.249591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="57931e40d43656b8769a16518b11030a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.577804Z"/>
+<entry
+   committed-rev="282"
+   name="bu05.gif"
+   text-time="2012-07-22T13:19:02.267592Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="aae0a1cb479091472d04ba2b88c10347"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.173723Z"/>
+<entry
+   committed-rev="282"
+   name="button10.gif"
+   text-time="2012-07-22T13:19:02.319595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="3b6ee51f2909937afdbe092459f05a73"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.638807Z"/>
+<entry
+   committed-rev="282"
+   name="loadon.gif"
+   text-time="2012-07-22T13:19:02.188588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="2935096644d636e0420eee11cdeca507"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.440796Z"/>
+<entry
+   committed-rev="282"
+   name="bu06.gif"
+   text-time="2012-07-22T13:19:02.269592Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="4ae4a8450c336c6ed50c3a2de0386742"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.460740Z"/>
+<entry
+   committed-rev="282"
+   name="bu07.gif"
+   text-time="2012-07-22T13:19:02.272593Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="bdbd4b1f028b46591eb05845b91e9eda"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.225726Z"/>
+<entry
+   committed-rev="282"
+   name="bu08.gif"
+   text-time="2012-07-22T13:19:02.274593Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="97d47a000d698d6a4f7b32e584476e3a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.531744Z"/>
+<entry
+   committed-rev="282"
+   name="bu09.gif"
+   text-time="2012-07-22T13:19:02.293594Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="9ed35a588badda9582d546734aa3e807"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.306731Z"/>
+<entry
+   committed-rev="282"
+   name="pic05.gif"
+   text-time="2012-07-22T13:19:02.231590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="6b27f12bb9685820a879804036f1910a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.417794Z"/>
+<entry
+   committed-rev="282"
+   name="ico24.gif"
+   text-time="2012-07-22T13:19:02.182587Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="f73aac20c1914b648aea3c16c370fb94"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.628807Z"/>
+<entry
+   committed-rev="282"
+   name="welcome.gif"
+   text-time="2012-07-22T13:19:02.243591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="629a052bdd221853f7b21c18f15cd722"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.154722Z"/>
+<entry
+   committed-rev="282"
+   name="logo.gif"
+   text-time="2012-07-22T13:19:02.190588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="1254f49110e5cb8f9a7f503adbbbd58d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.397793Z"/>
+<entry
+   committed-rev="282"
+   name="top02.gif"
+   text-time="2012-07-22T13:19:02.239591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="11eca7e577b5a5ce15b44f9a7eac9c21"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.510743Z"/>
+<entry
+   committed-rev="282"
+   name="top03.gif"
+   text-time="2012-07-22T13:19:02.241591Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="e9206ff1cbd5b8f868343f81b32d682b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.384793Z"/>
+<entry
+   committed-rev="282"
+   name="bu10.gif"
+   text-time="2012-07-22T13:19:02.295594Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="49412c612e558b2be74ceee35dd5f999"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.199725Z"/>
+<entry
+   committed-rev="282"
+   name="bu11.gif"
+   text-time="2012-07-22T13:19:02.297594Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="34e614039358becd07a91017f19d04f9"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.315731Z"/>
+<entry
+   committed-rev="282"
+   name="bu12.gif"
+   text-time="2012-07-22T13:19:02.302594Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="3f2e32492a3c78b386ce0148a8943e7c"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.357734Z"/>
+<entry
+   committed-rev="282"
+   name="bu13.gif"
+   text-time="2012-07-22T13:19:02.305594Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="75167c97e5288a346a7f13b9f6847591"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.126721Z"/>
+<entry
+   committed-rev="282"
+   name="dhbutton01.gif"
+   text-time="2012-07-22T13:19:02.321595Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="1ded7e22a706fa068bb13337de8f58c7"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.374792Z"/>
+<entry
+   committed-rev="282"
+   name="dhbutton02.gif"
+   text-time="2012-07-22T13:19:02.323596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="a7e689534886f08fec5690bbd9e62145"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.135721Z"/>
+<entry
+   committed-rev="282"
+   name="dhbutton03.gif"
+   text-time="2012-07-22T13:19:02.325596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="db8adc7641983802ef426c3c078a1e55"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.587804Z"/>
+<entry
+   committed-rev="282"
+   name="dhbutton04.gif"
+   text-time="2012-07-22T13:19:02.326596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="36b67510b4bf02ea3edf5e71dc03a04f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.407794Z"/>
+<entry
+   committed-rev="282"
+   name="dhbutton05.gif"
+   text-time="2012-07-22T13:19:02.328596Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="119cd224c66ea80b9407323441ec8760"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.366734Z"/>
+<entry
+   committed-rev="282"
+   name="mode.jpg"
+   text-time="2012-07-22T13:19:02.193588Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="62a55e052e20d0c82310a4e4a6175f33"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:05.657808Z"/>
+<entry
+   committed-rev="282"
+   name="shape01.gif"
+   text-time="2012-07-22T13:19:02.233590Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="61ff41ceecbeb7c2202802aac77ab8b2"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-22T14:10:04.468740Z"/>
+</wc-entries>

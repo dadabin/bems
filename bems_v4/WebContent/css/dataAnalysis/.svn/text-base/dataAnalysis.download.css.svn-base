@@ -1,0 +1,22 @@
+select {
+	position:relative;
+	float:none;
+    padding:1px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width: 100px;
+	font-size:80%;
+	font-weight:lighter;
+}
+
+#download_ul li
+{
+	margin-bottom:10px;
+}
+
+#container_download_separator
+{
+	height:5px;
+	background-color:#666666;
+}

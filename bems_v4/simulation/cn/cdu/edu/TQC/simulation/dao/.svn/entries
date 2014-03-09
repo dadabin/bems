@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/simulation/cn/cdu/edu/TQC/simulation/dao"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="SAmmeterDao.java"
+   text-time="2012-07-21T01:40:28.777081Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="60b2bbe761d94e331deb71e01e494bd8"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.765081Z"/>
+<entry
+   committed-rev="223"
+   name="SMeterDao.java"
+   text-time="2012-07-21T01:40:28.785082Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="264343108ecfba44aa610ebc7956e31d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.770081Z"/>
+</wc-entries>

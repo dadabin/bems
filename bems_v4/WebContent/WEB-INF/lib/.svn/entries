@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="329"
+   name=""
+   committed-date="2012-08-10T05:49:18.695807Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/WEB-INF/lib"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="329"
+   name="duanxin.jar"
+   text-time="2012-08-10T01:32:57.781053Z"
+   committed-date="2012-08-10T05:49:18.695807Z"
+   checksum="b902480a525f1efeac0058ae13675055"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-08-10T05:49:17.206534Z"/>
+<entry
+   committed-rev="223"
+   name="jersey-server-1.5.jar"
+   text-time="2012-07-21T01:40:43.106901Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="48dbd084a2c53a06cc6999fef6a6a73e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:40.666761Z"/>
+<entry
+   committed-rev="223"
+   name="poi-ooxml-schemas-3.8-20120326.jar"
+   text-time="2012-07-21T01:40:43.183905Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7ebcffdc4d82b2b8cbc6464d4543cd07"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.328799Z"/>
+<entry
+   committed-rev="223"
+   name="xmlbeans-2.3.0.jar"
+   text-time="2012-07-21T01:40:43.230908Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="64b05e7adad68fa65d02a8b6daa64afb"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.763824Z"/>
+<entry
+   committed-rev="223"
+   name="jersey-json-1.5.jar"
+   text-time="2012-07-21T01:40:43.254909Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8fdd6c63b86ba1d3e3b7b6faf324385d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.813827Z"/>
+<entry
+   committed-rev="223"
+   name="jersey-client-1.5.jar"
+   text-time="2012-07-21T01:40:43.262910Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="6dcd6be0af26658b96a86a161d271379"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.839828Z"/>
+<entry
+   committed-rev="223"
+   name="asm-3.1.jar"
+   text-time="2012-07-21T01:40:43.269910Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b9b8d2d556f9458aac8c463fd511f86d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.851829Z"/>
+<entry
+   committed-rev="279"
+   name="jersey-multipart-1.3.jar"
+   text-time="2012-07-22T08:13:41.615729Z"
+   committed-date="2012-07-22T08:11:54.064441Z"
+   checksum="fb9275c570d4451fd3cb00c476902b8c"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-22T08:13:41.590728Z"/>
+<entry
+   committed-rev="223"
+   name="stax-api-1.0.1.jar"
+   text-time="2012-07-21T01:40:43.276911Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7d436a53c64490bee564c576babb36b4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.905832Z"/>
+<entry
+   committed-rev="223"
+   name="mail.jar"
+   text-time="2012-07-21T01:40:43.290911Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="a2936a7665d4b4a3fef02f595f23147b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:41.991837Z"/>
+<entry
+   committed-rev="279"
+   name="mimepull-1.3.jar"
+   text-time="2012-07-22T08:13:41.626730Z"
+   committed-date="2012-07-22T08:11:54.064441Z"
+   checksum="8a9808b1c91cc389fd3c7015873ab8cd"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-22T08:13:41.602728Z"/>
+<entry
+   committed-rev="223"
+   name="jcommon-1.0.17.jar"
+   text-time="2012-07-21T01:40:43.302912Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="5cdd220aed21dc505959ee4c676543e5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.043840Z"/>
+<entry
+   committed-rev="223"
+   name="poi-ooxml-3.8-20120326.jar"
+   text-time="2012-07-21T01:40:43.322913Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8f147b248f078799c24c8714f185b1a8"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.180848Z"/>
+<entry
+   committed-rev="223"
+   name="jsr311-api-1.1.1.jar"
+   text-time="2012-07-21T01:40:43.330914Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c9803468299ec255c047a280ddec510f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.200849Z"/>
+<entry
+   committed-rev="223"
+   name="mysql-connector-java-5.1.6-bin.jar"
+   text-time="2012-07-21T01:40:43.348915Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="40be305ee91fb6a7a385eeb260c7c08a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.302855Z"/>
+<entry
+   committed-rev="223"
+   name="jersey-core-1.5.jar"
+   text-time="2012-07-21T01:40:43.362916Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="40c45f8d909eed613ae3dc8f89f76390"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.377859Z"/>
+<entry
+   committed-rev="223"
+   name="commons-codec-1.6.jar"
+   text-time="2012-07-21T01:40:43.373916Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="5970f54883b4831b24b97f1125ba27e6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.419862Z"/>
+<entry
+   committed-rev="223"
+   name="poi-3.8-20120326.jar"
+   text-time="2012-07-21T01:40:43.406918Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="5c915f48922046c71121fd7021aa23cb"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.679876Z"/>
+<entry
+   committed-rev="223"
+   name="jfreechart-1.0.14.jar"
+   text-time="2012-07-21T01:40:43.451921Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e0ac6e8ecb858f946200b326209fe639"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:42.997895Z"/>
+<entry
+   committed-rev="223"
+   name="jettison-1.1.jar"
+   text-time="2012-07-21T01:40:43.478922Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="fc80e0aabd516c54739262c3d618303a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:43.027896Z"/>
+<entry
+   committed-rev="223"
+   name="standard.jar"
+   text-time="2012-07-21T01:40:43.492923Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="d2b7124a052a8d1f11d483cd6a3c62cc"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:43.086900Z"/>
+<entry
+   committed-rev="290"
+   name="log4j-1.2.16.jar"
+   text-time="2012-05-23T02:11:25.141000Z"
+   committed-date="2012-07-24T08:42:22.452757Z"
+   checksum="4a11e911b2403bb6c6cf5e746497fe7a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-24T08:42:28.518197Z"/>
+</wc-entries>

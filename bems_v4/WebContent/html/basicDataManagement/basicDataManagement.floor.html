@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="css/basicDataManagement/basicDataManagement.floor.css">
+<script src="./js/jquery/jquery.form.js" type="text/javascript"></script>
+
+</head>
+<body>
+	
+	<div class="basicDataDiv" id="floor_basic_div">
+	<form id="floor_basic_form" method="post" action="rest/floorService/addFloor" enctype="multipart/form-data">
+		<fieldset>
+			<legend>楼层基本数据维护</legend>
+			<table border="1">
+				<thead>
+					<tr>
+						 <th>楼层号</th> <th>楼层使用人数</th> <th>楼层平面图</th> <th>备注</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						
+						<td>
+							<select name="floorNo" id="floorNo">
+								
+							</select>
+						</td>
+						<td><input type="text" name="usersnum" size="10"></td>
+						<td>
+							<input type="file" name="graphics">
+							<input type="hidden" name="buildingid" value="1">
+						</td>
+						<td>
+							<textarea name="intro" rows="2" cols="12"></textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="5" style="text-align:center;">
+							<input type="submit" id="floor_basic_data_submitBtn" value="提交">
+							<input type="reset"  value="重置">
+						</td>
+					</tr>
+					
+				</tbody>
+			</table>
+		</fieldset>
+	</form>
+		
+</div>
+<script src="js/basicDataManagement/basicDataManagement.floor.js"></script>
+</body>
+</html>

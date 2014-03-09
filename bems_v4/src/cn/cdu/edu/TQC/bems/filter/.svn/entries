@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/src/cn/cdu/edu/TQC/bems/filter"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="359"
+   name="UrlFilter.java"
+   text-time="2012-08-18T09:44:32.199707Z"
+   committed-date="2012-08-18T14:38:09.616234Z"
+   checksum="844adacafac12d328c31773d390d1b1f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-08-17T02:39:57.084007Z"/>
+<entry
+   committed-rev="223"
+   name="EcodingFilter.java"
+   text-time="2012-07-21T01:40:29.467121Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c07bcb1be043824d865467fe67f65eba"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:29.452120Z"/>
+</wc-entries>

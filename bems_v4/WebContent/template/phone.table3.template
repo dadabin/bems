@@ -1,0 +1,32 @@
+<!-- 模板内容 -->
+<strong>{$T.name} : {$T.list_id}</strong>
+<table  width="100%" border="1" align="center">
+<tr bgcolor="#6795B4">
+    <td colspan="3" align="center">基本数据</td>
+  </tr>
+    <tr>
+    	<th style="width:80px">
+           楼层号
+        </th>
+        <th style="width:80px">
+            电话费用（￥）
+        </th>
+        <th style="width:80px">
+           所占比例
+        </th>
+    </tr>
+    {#foreach $T.table as record}
+    <tr>
+    	<td>
+            {$T.record.floor}楼
+        </td>
+        <td>
+            {$T.record.all}
+        </td>
+        <td>
+            {$T.record.rate}
+        </td>
+      
+    </tr>
+    {#/for}
+</table>

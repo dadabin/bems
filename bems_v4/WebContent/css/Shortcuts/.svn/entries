@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="304"
+   name=""
+   committed-date="2012-07-25T14:56:59.118633Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/Shortcuts"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="shortcuts_notice"
+   kind="dir"/>
+<entry
+   committed-rev="282"
+   name="Shortcuts_Contact.css"
+   text-time="2012-07-22T12:12:04.484788Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="c7476d712fc895415f0f644a4a4029b7"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="304"
+   name="Shortcuts_notice.css"
+   text-time="2012-07-25T15:00:09.994884Z"
+   committed-date="2012-07-25T14:56:59.118633Z"
+   checksum="1491c66936e0bf5db03e2017ac043a59"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T15:00:09.979883Z"/>
+</wc-entries>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="347"
+   name=""
+   committed-date="2012-08-17T02:44:40.839623Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/Shortcuts"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="347"
+   name="Shortcuts_Calendar.js"
+   text-time="2012-08-17T02:27:51.626513Z"
+   committed-date="2012-08-17T02:44:40.839623Z"
+   checksum="64ea89ecff36a3990252782b36c4b6c7"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="328"
+   name="Shortcuts_Contact.js"
+   text-time="2012-07-27T06:45:00.277617Z"
+   committed-date="2012-07-29T03:08:52.175527Z"
+   checksum="5f224fd000c8213bbb675e83b89d244e"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="344"
+   name="ShortCuts_sendMsg.js"
+   text-time="2012-08-16T11:37:19.583968Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="6f3c974d181b5f99f35b97f8a7a7993b"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="282"
+   name="Shortcuts_Notice.js"
+   text-time="2012-07-22T13:06:09.399387Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="a5e72c2ccb997ba34bd9bd22f81d7d3d"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="307"
+   name="Shortcuts_Users.js"
+   text-time="2012-07-25T11:11:47.893441Z"
+   committed-date="2012-07-25T15:28:50.839590Z"
+   checksum="e457899041a5960aed77361129438ba6"
+   last-author="lpm"
+   kind="file"/>
+</wc-entries>

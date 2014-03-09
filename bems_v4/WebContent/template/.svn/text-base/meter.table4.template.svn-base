@@ -1,0 +1,32 @@
+<!-- 模板内容 -->
+<table  width="100%" border="1" align="center">
+	<tr bgcolor="#6795B4">
+    <td colspan="3" align="center">年份对比图</td>
+  </tr>
+	
+    <tr>
+    	<th style="width:30%">
+           年分
+        </th>
+        <th style="width:30%">
+            月份
+        </th>
+        <th style="width:30%">
+          用量（吨）
+        </th>
+    </tr>
+    {#foreach $T.table as record}
+    <tr>
+    	<td>
+            {$T.record.year}年
+        </td>
+        <td>
+            {$T.record.floor}楼
+        </td>
+        <td>
+            {$T.record.data}
+        </td>
+      
+    </tr>
+    {#/for}
+</table>

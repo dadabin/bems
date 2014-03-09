@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="352"
+   name=""
+   committed-date="2012-08-17T09:52:43.653600Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/userManagement"
+   last-author="tqc"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="352"
+   name="userManagement.emergency.css"
+   text-time="2012-08-18T14:30:02.850524Z"
+   committed-date="2012-08-17T09:52:43.653600Z"
+   checksum="f3ef3884999bfa33f3c5100957f157d3"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:30:02.663514Z"/>
+<entry
+   committed-rev="327"
+   name="userManagement.look.css"
+   text-time="2012-07-29T03:07:13.714867Z"
+   committed-date="2012-07-26T14:00:09.632859Z"
+   checksum="7e70dc21149e947bc44a24815c75f4ee"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-29T03:07:13.674864Z"/>
+<entry
+   committed-rev="352"
+   name="urlManagement.css"
+   text-time="2012-08-18T14:30:02.871525Z"
+   committed-date="2012-08-17T09:52:43.653600Z"
+   checksum="e9f8b7bdd59f945aa2036fcc8f4878d1"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:30:02.827523Z"/>
+<entry
+   committed-rev="296"
+   name="userManagement.add.css"
+   text-time="2012-07-24T14:01:17.740199Z"
+   committed-date="2012-07-24T13:39:44.594095Z"
+   checksum="44463d0bf2647f61af4ddbd44c3fa580"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-24T14:01:17.713197Z"/>
+</wc-entries>

@@ -1,0 +1,31 @@
+<!-- 模板内容 -->
+<table  width="100%" border="1" align="center">
+<tr bgcolor="#6795B4">
+    <td colspan="3" align="center">基本数据</td>
+  </tr>
+    <tr>
+    	<th style="width:80px">
+           楼层号
+        </th>
+        <th style="width:80px">
+            总费用（￥）
+        </th>
+        <th style="width:80px">
+           人平均值（￥）
+        </th>
+    </tr>
+    {#foreach $T.table as record}
+    <tr>
+    	<td>
+            {$T.record.floor}楼
+        </td>
+        <td>
+            {$T.record.all}
+        </td>
+        <td>
+            {$T.record.avg}
+        </td>
+      
+    </tr>
+    {#/for}
+</table>

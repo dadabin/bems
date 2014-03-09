@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/energySave"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="351"
+   name="energySave.pubishTask.js"
+   text-time="2012-08-18T14:30:03.230546Z"
+   committed-date="2012-08-17T09:50:04.970121Z"
+   checksum="818b16ca0202fcaf6221bb11294ac5c0"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:30:03.128540Z"/>
+<entry
+   committed-rev="362"
+   name="energySave.makePlane.js"
+   text-time="2012-08-19T00:53:23.257107Z"
+   committed-date="2012-08-19T01:33:37.113709Z"
+   checksum="f153c56d4b771aedb029265f3a8dc068"
+   last-author="lpm"
+   kind="file"
+   revision="362"/>
+<entry
+   committed-rev="314"
+   name="energySave.look.js"
+   text-time="2012-07-26T00:22:51.490757Z"
+   committed-date="2012-07-26T00:09:59.461972Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-26T00:22:51.470757Z"/>
+<entry
+   committed-rev="358"
+   name="energySave.making.js"
+   text-time="2012-08-18T14:30:03.254547Z"
+   committed-date="2012-08-18T13:58:30.970856Z"
+   checksum="3fae9a5b7a06f506df8314c434eac7cf"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:30:03.185543Z"/>
+</wc-entries>

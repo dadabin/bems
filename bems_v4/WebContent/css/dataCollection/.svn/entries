@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="347"
+   name=""
+   committed-date="2012-08-17T02:44:40.839623Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/dataCollection"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="347"
+   name="dataCollect_ammeter.css"
+   text-time="2012-08-17T01:42:45.806619Z"
+   committed-date="2012-08-17T02:44:40.839623Z"
+   checksum="26766bf6ddfc4672948852c1e820bdc5"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="347"
+   name="dataCollect_meter.css"
+   text-time="2012-08-17T01:55:00.520529Z"
+   committed-date="2012-08-17T02:44:40.839623Z"
+   checksum="d82d09183c6e74fc8a552a899413fb54"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="296"
+   name="dataCollection.telePhone.css"
+   text-time="2012-07-24T14:01:15.999099Z"
+   committed-date="2012-07-24T13:39:44.594095Z"
+   checksum="7539d6a2233c141263b8d8c8ea1c9970"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-24T14:01:15.982098Z"/>
+</wc-entries>

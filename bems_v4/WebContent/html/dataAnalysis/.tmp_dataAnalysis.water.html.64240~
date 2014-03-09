@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/dataAnalysis/dataAnalysis.water.css">
+<script type="text/javascript" src="js/template/jquery-jtemplates.js"></script>
+<script type="text/javascript" src="js/dataAnalysis/dataAnalysis.water.js"></script>
+
+</head>
+<body>
+	<div id="dataAnalysis_water_meunu_bar_div">
+	
+		<ul>
+			<li><a href="#tabs-1">各仪表基本数据查询</a></li>
+			<li><a href="#tabs-2">楼层间基本数据对比查询</a></li>
+			<li><a href="#tabs-3">仪表月用量查询 </a></li>
+			<li><a href="#tabs-4">楼层间总量对比查询 </a></li>
+			<li><a href="#tabs-5">仪表年份对比查询</a></li>
+		</ul>
+		
+		<div id="tabs-1">
+			<form id="dataAnalysis_water_basic_data_look_form">
+				请选择水表编号:
+				<select name="dataAnalysis_water_basic_data_look_number" id="dataAnalysis_water_basic_data_look_number_select">
+					<option>--请选择表号--</option>
+					<option value="20000001">20000001</option>
+					<option value="20000002">20000002</option>
+					<option value="20000003">20000003</option>
+					<option value="20000004">20000004</option>	
+					<option value="20000005">20000005</option>	
+					<option value="20000006">20000006</option>	
+					<option value="20000007">20000007</option>	
+					<option value="20000008">20000008</option>
+					<option value="20000009">20000009</option>
+				</select>
+				<br/>
+		
+				<input type="button" value="    查询     " id="dataAnalysis_water_basic_data_look_btn">
+				<input type="button" value="    填入分析内容     " id="opener_1">
+
+			</form>
+		</div>
+		<!--===============================================-->
+		<div id="tabs-2">
+			<form id="dataAnalysis_water_constrast_data_look_form">
+			请选择水表所在地理位置:
+			<input type="checkbox" name="floors" value="20000001" id="floors_1"><label for="floors_1">一楼</label>
+			<input type="checkbox" name="floors" value="20000002" id="floors_2"><label for="floors_2">二楼</label>
+			<input type="checkbox" name="floors" value="20000003" id="floors_3"><label for="floors_3">三楼</label>
+			<input type="checkbox" name="floors" value="20000004" id="floors_4"><label for="floors_4">四楼</label>
+			<input type="checkbox" name="floors" value="20000005" id="floors_5"><label for="floors_5">五楼</label>
+			<input type="checkbox" name="floors" value="20000006" id="floors_6"><label for="floors_6">六楼</label>
+			<input type="checkbox" name="floors" value="20000007" id="floors_0"><label for="floors_0">地下室</label>
+			<input type="checkbox" name="floors" value="20000008" id="floors_7"><label for="floors_7">绿化带</label>
+			<br/>
+			
+				请选择日期范围:
+				从<input type="text" name="water_constrast_begin_time" id="water_constrast_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="water_constrast_end_time" id="water_constrast_end_time"  size="10" class="date_picker"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_water_constrast_data_look_btn">
+				
+			</form>
+			<input type="button" value="    填入分析内容     " id="opener_2">
+		</div>
+		
+		<!--===============================================-->
+		<div id="tabs-3">
+			<form id="dataAnalysis_water_month_data_look_form">
+				请选择水表编号:
+				<select name="dataAnalysis_water_month_data_look_number" id="dataAnalysis_water_month_data_look_number_select">
+					<option>--请选择表号--</option>
+					<option value="20000001">20000001</option>
+					<option value="20000002">20000002</option>
+					<option value="20000003">20000003</option>
+					<option value="20000004">20000004</option>	
+					<option value="20000005">20000005</option>	
+					<option value="20000006">20000006</option>	
+					<option value="20000007">20000007</option>	
+					<option value="20000008">20000008</option>
+					<option value="20000009">20000009</option>
+				</select>
+				<br/>
+				请选择年份:
+				<select name="dataAnalysis_water_month_data_look_number_year" id="dataAnalysis_water_month_data_look_number_year_select">
+					<option>--请选择年份--</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>	
+					<option value="2016">2016</option>	
+					<option value="2017">2017</option>	
+					<option value="2018">2018</option>	
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+				
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_water_month_data_look_btn">
+				<input type="button" value="    填入分析内容     " id="opener_3">
+			</form>
+		</div>
+		
+		<!--===============================================-->
+		<div id="tabs-4">
+			<form id="dataAnalysis_water_season_data_look_form">
+			
+			请选择年份:
+				<select name="dataAnalysis_water_season_data_look_number_year" id="dataAnalysis_water_season_data_look_number_year_select">
+					<option>--请选择年份--</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>	
+					<option value="2016">2016</option>	
+					<option value="2017">2017</option>	
+					<option value="2018">2018</option>	
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+			请选择月份:
+				<select name="dataAnalysis_water_season_data_look_number_month" id="dataAnalysis_water_season_data_look_number_month_select">
+					<option>--请选择月份--</option>
+					<option value="1">1月</option>
+					<option value="2">2月</option>
+					<option value="3">3月</option>
+					<option value="4">4月</option>
+					<option value="5">5月</option>
+					<option value="6">6月</option>	
+					<option value="7">7月</option>	
+					<option value="8">8月</option>	
+					<option value="9">9月</option>	
+					<option value="10">10月</option>
+					<option value="11">11月</option>
+					<option value="12">12月</option>
+				</select>
+				
+				
+				
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_water_season_data_look_btn">
+				<input type="button" value="    填入分析内容     " id="opener_4">
+			</form>
+		</div>
+		
+			<!--===============================================-->
+		<div id="tabs-5">
+			<form id="dataAnalysis_water_year_data_look_form">
+			请选择水表编号:
+				<select name="dataAnalysis_water_year_data_look_number" id="dataAnalysis_water_year_data_look_number_select">
+					<option>--请选择表号--</option>
+					<option value="20000001">20000001</option>
+					<option value="20000002">20000002</option>
+					<option value="20000003">20000003</option>
+					<option value="20000004">20000004</option>	
+					<option value="20000005">20000005</option>	
+					<option value="20000006">20000006</option>	
+					<option value="20000007">20000007</option>	
+					<option value="20000008">20000008</option>
+					<option value="20000009">20000009</option>
+				</select>
+				<br/>
+			请选择年份:
+				<select name="dataAnalysis_water_year_data_look_number_year" id="dataAnalysis_water_year_data_look_number_year_select">
+					<option>--请选择年份--</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>	
+					<option value="2016">2016</option>	
+					<option value="2017">2017</option>	
+					<option value="2018">2018</option>	
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_water_year_data_look_btn">
+				<input type="button" value="    填入分析内容     " id="opener_5">
+			</form>
+		</div>
+</div>
+
+<!--===============================================-->
+<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+<!--===============================================-->
+
+<!---------------------------------->
+<!---------------------------------->
+<!-------------数据分析---------------->
+<!---------------------------------->
+<!---------------------------------->
+
+<div id="anylis_div">
+<!--分割线--->
+<hr id="container_anylis_separator"/>
+
+<!--===============================================-->
+<div id="wataer_table" style="min-width: 600px; height: 500px; margin: 0 auto"></div>
+<!--===============================================-->
+<!--===============分析框==================-->
+<div id="dialog_anaysis" title="图表分析">
+				
+				<form id="anylis_content_form">
+					请输入分析内容:<br/>
+					<textarea rows="8" cols="35" id="anylis_content_text_area"></textarea>
+					<input type="button" id="anylis_content_form_submit_btn" value="提交">
+					<input type="reset" id="anylis_content_form_reset_btn" value="重置">
+				</form>
+</div>
+
+</div>
+</body>
+</html>

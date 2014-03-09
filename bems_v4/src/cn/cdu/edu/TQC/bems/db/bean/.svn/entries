@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="359"
+   name=""
+   committed-date="2012-08-18T14:38:09.616234Z"
+   url="https://180.84.33.71/svn/code/bems_v4/src/cn/cdu/edu/TQC/bems/db/bean"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="Device.java"
+   text-time="2012-07-21T01:40:31.438233Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b0020bab647bb2f259becd8fd45aba18"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.285225Z"/>
+<entry
+   committed-rev="223"
+   name="AnalysisReportDetail.java"
+   text-time="2012-07-21T01:40:31.446234Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="6bf0236d666ffc0eaa18d70c46348b9b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.290225Z"/>
+<entry
+   committed-rev="223"
+   name="Price.java"
+   text-time="2012-07-21T01:40:31.454234Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="1e088a21e6250aa81bc248e1c0036e43"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.301226Z"/>
+<entry
+   committed-rev="334"
+   name="Url.java"
+   text-time="2012-08-13T02:40:51.804060Z"
+   committed-date="2012-08-12T14:11:32.546269Z"
+   checksum="16839c8be52bfa02e64d96025e619336"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-13T02:40:51.760057Z"/>
+<entry
+   committed-rev="223"
+   name="Staff.java"
+   text-time="2012-07-21T01:40:31.468235Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3785084632c9911e3bdea7880645d460"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.326227Z"/>
+<entry
+   committed-rev="223"
+   name="PhoneOrder.java"
+   text-time="2012-07-21T01:40:31.475236Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="5dcfff4e33e7429119192a753c721f59"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.331227Z"/>
+<entry
+   committed-rev="223"
+   name="MeterData.java"
+   text-time="2012-07-21T01:40:31.482236Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="269478cf6624dae7f28e3ec262aa9eec"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.335228Z"/>
+<entry
+   committed-rev="223"
+   name="Phone.java"
+   text-time="2012-07-21T01:40:31.489236Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="358d20aacc8be0eb8320a8da2812b87a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.339228Z"/>
+<entry
+   committed-rev="348"
+   name="AmmeterDevice.java"
+   text-time="2012-08-17T09:39:14.870080Z"
+   committed-date="2012-08-17T09:39:03.404159Z"
+   checksum="ca9b96cb9b483f1a0c3e83ac161c5f02"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-17T09:39:14.847078Z"/>
+<entry
+   committed-rev="223"
+   name="Ribbon.java"
+   text-time="2012-07-21T01:40:31.496237Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c8406b6177f002a873fce4b535f87298"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.343228Z"/>
+<entry
+   committed-rev="223"
+   name="Template.java"
+   text-time="2012-07-21T01:40:31.502237Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="368a2af918280e979fff35dc3f118f8a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.348228Z"/>
+<entry
+   committed-rev="223"
+   name="Meter.java"
+   text-time="2012-07-21T01:40:31.509238Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="cf5ccbbed74c621e74cc6516cad8d82a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.352229Z"/>
+<entry
+   committed-rev="223"
+   name="StaffLPM.java"
+   text-time="2012-07-21T01:40:31.516238Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="acaab5842e0e032be0ba1c8d4bf264ae"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.356229Z"/>
+<entry
+   committed-rev="223"
+   name="RibbonType.java"
+   text-time="2012-07-21T01:40:31.522238Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b0a322dd5b9086d3c1096faa3dceb0c6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.360229Z"/>
+<entry
+   committed-rev="223"
+   name="AnalysisReport.java"
+   text-time="2012-07-21T01:40:31.529239Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="f21ede0ed8b1700a48c3f382592b3d46"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.365229Z"/>
+<entry
+   committed-rev="359"
+   name="Floor.java"
+   text-time="2012-08-17T08:27:31.945967Z"
+   committed-date="2012-08-18T14:38:09.616234Z"
+   checksum="44a07fbe87cbe7fe443b85ae54d895b4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.369230Z"/>
+<entry
+   committed-rev="223"
+   name="PhoneFeeData.java"
+   text-time="2012-07-21T01:40:31.543239Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="9ed93032d5bf7d679013da2027271c78"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.374230Z"/>
+<entry
+   committed-rev="223"
+   name="AmmeterData.java"
+   text-time="2012-07-21T01:40:31.568241Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="47b0bce032a999893c1fff950a87a7c3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.381230Z"/>
+<entry
+   committed-rev="223"
+   name="EmergncyGroup.java"
+   text-time="2012-07-21T01:40:31.589242Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="ed0399efefe660bbd699cc8b8b7a67ef"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.404232Z"/>
+<entry
+   committed-rev="223"
+   name="InformSetting.java"
+   text-time="2012-07-21T01:40:31.596242Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3d007cefe33a2110dce7b639c527be60"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.408232Z"/>
+<entry
+   committed-rev="290"
+   name="InformRecord.java"
+   text-time="2012-07-24T02:06:47.224787Z"
+   committed-date="2012-07-24T08:42:22.452757Z"
+   checksum="83064c8720e0af196d654abc6c9bc656"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.412232Z"/>
+<entry
+   committed-rev="223"
+   name="Ammeter.java"
+   text-time="2012-07-21T01:40:31.850257Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="af813bdec4e6f82205910049251d0e08"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.417232Z"/>
+<entry
+   committed-rev="223"
+   name="EmergncyStaff.java"
+   text-time="2012-07-21T01:40:31.863258Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="f59a9d4682d92c2add3fbd3bf0cd9eb7"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.421232Z"/>
+<entry
+   committed-rev="223"
+   name="Building.java"
+   text-time="2012-07-21T01:40:31.870258Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b9dbd57950346ab94b03a78ac1949067"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.426233Z"/>
+<entry
+   committed-rev="223"
+   name="PlaneRecord.java"
+   text-time="2012-07-21T01:40:31.878259Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="17dc5b4d534c106d073ae6b8bfcc81f4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:31.430233Z"/>
+</wc-entries>

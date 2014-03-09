@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/highcharts/adapters"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="mootools-adapter.js"
+   text-time="2012-07-21T01:40:47.451149Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="34660740114ca0774e206773fb16fe7f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.428148Z"/>
+<entry
+   committed-rev="223"
+   name="prototype-adapter.src.js"
+   text-time="2012-07-21T01:40:47.458150Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e7af2a8704afdaeff8055c1e43331b55"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.434148Z"/>
+<entry
+   committed-rev="223"
+   name="mootools-adapter.src.js"
+   text-time="2012-07-21T01:40:47.466150Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="454992ed93be2d2683b74955d74ffeee"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.439149Z"/>
+<entry
+   committed-rev="223"
+   name="prototype-adapter.js"
+   text-time="2012-07-21T01:40:47.474151Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="ce538db77f9171a1a9ffd27031e6176d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.444149Z"/>
+</wc-entries>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link href="css/plugin/jquery.contextMenu.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/basicDataManagement/basicDataManagement.zu_tai.css">
+
+</head>
+<body>
+	
+		<fieldset>
+			<legend>楼层组态布局</legend>
+			
+			<div id="basicData_zutai_meunu_bar_div">
+				<ul>
+					<li><a href="#tabs-1" class="tabs_a">查看楼层组态布局图</a></li>
+					<li><a href="#tabs-2" class="tabs_a">维护楼层组态布局图</a></li>
+				</ul>
+				
+				<div  id="tabs-1">
+					<div class="tabs_2_handle_height_div">
+						<br/>
+						<br/>
+						请选择楼层：
+						<select name="floor_number" class="floor_number_select">
+							<option value="0">--请选择楼层--</option>
+							<option value="1">1楼</option>
+							<option value="2">2楼</option>
+							<option value="3">3楼</option>
+							<option value="4">4楼</option>
+							<option value="5">5楼</option>
+							<option value="6">6楼</option>
+							<option value="-1">地下室</option>
+						</select>
+						&nbsp;&nbsp;&nbsp;
+						<input type="button" value="查看" id="look_functionDivs_btn">
+					</div>
+				</div>
+				<!--===============================================-->
+				<div  id="tabs-2">
+					<div class="tabs_2_handle_height_div">
+						<div id="tabs_floor_number_select_div">
+							<br/>
+						
+						请选择楼层：
+							<select name="floor_number" class="floor_number_select" >
+								<option value="0">--请选择楼层--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="-1">地下室</option>
+							</select>
+						</div>
+						
+				<div id="tabs_instrument_develop_div">
+					<ul id="topbtns">
+		                <li>
+		                	<a href="##" id="createFunctionDiv"><img src="images/icons/icon_lrg_create.png" alt="Calendar" /><br />创建功能区</a>
+		                </li>
+		                <li>
+		                	<a href="##" id="instument_type_div_shebei_a"><img src="images/dian3.png" alt="Create" /><br />设备电表</a>
+		                </li>
+		                <li>
+		                	<a href="##" id="instument_type_div_zhaoming_a"><img src="images/dian1.png" alt="Users" /><br />照明电表</a>
+		                </li>
+		                <li>
+		                	<a href="##"  id="instument_type_div_kongtiao_a"><img src="images/dian2.png" alt="Contacts" /><br />空调电表</a>
+		                </li>
+		                <li>
+		                	<a href="##"  id="instument_type_div_shuibiao_a"><img src="images/shui1.png" alt="Notice" /><br />水表</a>
+		                </li>
+						 <li>
+		                	<a href="##"  id="save_functionDivs_btn"><img src="images/save.png" alt="Notice" /><br />保存</a>
+		                </li>
+	                
+	           		</ul>
+				</div>
+					
+			</div>
+				
+			</div>
+	</div>
+		<div id="mainDiv">
+		
+    	</div>
+		
+    	<div id="show_instrument_detail_div" class="hide_at_first">
+				<ul>
+					<li>电表编号:<span>2001</span></li>
+					<li>电表类别:<span>设备电表</span></li>
+					<li>电表所属楼层:<span>4楼</span></li>
+					<li id="amount">前用电量:<span>245 千瓦/时</span></li>
+				</ul>
+				
+			</div>
+		</fieldset>
+
+<script type="text/javascript" src="js/plugin/jquery.min.js"></script>
+<script  src="js/plugin/jquery.ui.js"></script>
+<script type="text/javascript" src="js/plugin/jquery.contextMenu.js"></script>
+<script type="text/javascript" src="js/basicDataManagement/basicDataManagement.zu_tai.js"></script>
+
+</body>
+</html>

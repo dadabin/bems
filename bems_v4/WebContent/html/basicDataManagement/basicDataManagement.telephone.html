@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/basicDataManagement/basicDataManagement.telephone.css">
+
+</head>
+<body>
+	
+	<div class="basicDataDiv" id="tel_basic_div">
+		<fieldset>
+			<legend>电话基本数据维护</legend>
+		<!--
+		<a href="http://localhost:8080/bems_v2/rest/exelTools/downLoadExcelTemplate?type=phone">excel电话基本信息录入模版</a>
+		<br>
+		<a href="">excel批量导入电话信息</a>
+		<form id="tel_data_excel_form" action="http://localhost:8888/bems_v2/rest/exelTools/upLoadExcel?type=phone" enctype="multipart/form-data" method="post">
+						<br/>
+						<br/>
+						请选择你要导入的excel文件:
+						<input type="file"  name="excelFile"/>&nbsp;&nbsp;
+						<input type="submit" id="upload_excel" value="提交">
+	</form>
+	-->
+<!--================================================-->
+请选择数据录入方式:<input type="radio" name="type" value="excel_type" id="excel_type" > <label for="excel_type">excel文件导入</label> &nbsp;
+					 <input type="radio" name="type" value="manual_type" id="manual_type"> <label for="manual_type">手动录入</label>
+				<div id="excel_type_div" class="type_div">
+					<br/>
+					获取电话费用录入模版：<a href="rest/exelTools/downLoadExcelTemplate?type=phone" >点击获取</a>
+					<form id="tel_data_excel_form" action="rest/exelTools/upLoadExcel?type=phone" enctype="multipart/form-data" method="post">
+						<br/>
+						<br/>
+						请选择你要导入的excel文件:
+						<input type="file" name="excelFile" />&nbsp;&nbsp;
+						<input type="submit" id="upload_excel" value="提交">
+					</form>
+				</div>
+
+
+
+<!--================================================-->
+	
+	<div id="manual_type_div" class="type_div">
+		<form id="tel_basic_form">
+		
+			<table border="1">
+				<thead>
+					<tr>
+						<th>编号</th> <th>电话号码</th> <th>电话所在楼层</th> <th>电话所在房间</th> <th>电话权限</th> <th>电话责任人</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td><input name="tel_number1" type="text" size="15"/></td>
+						<td>
+							<select name="location1">
+								<option>--请选择电话所在楼层--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+							</select>
+						</td>
+						<td><input name="room_num1" type="text" size="10"/></td>
+						<td>
+							<select name="power1">
+								<option>--请选择电话权限--</option>
+								<option value="guoji">国际长途</option>
+								<option value="guonei">国内长途</option>
+								<option value="shihua">市话</option>
+								<option value="neixian">内线</option>
+							</select>
+						</td>
+						<td><input name="responsible1" type="text" size="10"/></td>
+					</tr>
+					<!--======================================-->
+					<tr>
+						<td>2</td>
+						<td><input name="tel_number2" type="text" size="15"/></td>
+						
+						
+						<td>
+							<select name="location2">
+								<option>--请选择电话所在楼层--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+							</select>
+						</td>
+						<td><input name="room_num2" type="text" size="10"/></td>
+						<td>
+							<select name="power2">
+								<option>--请选择电话权限--</option>
+								<option value="guoji">国际长途</option>
+								<option value="guonei">国内长途</option>
+								<option value="shihua">市话</option>
+								<option value="neixian">内线</option>
+							</select>
+						</td>
+						<td><input name="responsible2" type="text" size="10"/></td>
+					</tr>
+					<!--======================================-->
+					<tr>
+						<td>3</td>
+						<td><input name="tel_number3" type="text" size="15"/></td>
+						
+						
+						<td>
+							<select name="location3">
+								<option>--请选择电话所在楼层--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+							</select>
+						</td>
+						<td><input name="room_num3" type="text" size="10"/></td>
+						<td>
+							<select name="power3">
+								<option>--请选择电话权限--</option>
+								<option value="guoji">国际长途</option>
+								<option value="guonei">国内长途</option>
+								<option value="shihua">市话</option>
+								<option value="neixian">内线</option>
+							</select>
+						</td>
+						<td><input name="responsible3" type="text" size="10"/></td>
+					</tr>
+					<!--======================================-->
+					<tr>
+						<td>4</td>
+						<td><input name="tel_number4" type="text" size="15"/></td>
+						
+						
+						<td>
+							<select name="location4">
+								<option>--请选择电话所在楼层--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+							</select>
+						</td>
+						<td><input name="room_num4" type="text" size="10"/></td>
+						<td>
+							<select name="power4">
+								<option>--请选择电话权限--</option>
+								<option value="guoji">国际长途</option>
+								<option value="guonei">国内长途</option>
+								<option value="shihua">市话</option>
+								<option value="neixian">内线</option>
+							</select>
+						</td>
+						<td><input name="responsible4" type="text" size="10"/></td>
+					</tr>
+					<!--======================================-->
+					<tr>
+						<td>5</td>
+						<td><input name="tel_number5" type="text" size="15"/></td>
+						
+						
+						<td>
+							<select name="location5">
+								<option>--请选择电话所在楼层--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+							</select>
+						</td>
+						<td><input name="room_num5" type="text" size="10"/></td>
+						<td>
+							<select name="power5">
+								<option>--请选择电话权限--</option>
+								<option value="guoji">国际长途</option>
+								<option value="guonei">国内长途</option>
+								<option value="shihua">市话</option>
+								<option value="neixian">内线</option>
+							</select>
+						</td>
+						<td><input name="responsible5" type="text" size="10"/></td>
+					</tr>
+					<!--======================================-->
+					<tr>
+						<td colspan="6" style="text-align:center;">
+							<input type="button" id="tel_basic_data_submitBtn" value="提交">
+							<input type="reset"  value="重置">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		
+		</form>
+	
+		</fieldset>
+	</div>
+	
+</div>
+
+<script src="js/basicDataManagement/basicDataManagement.telephone.js"></script>
+</body>
+</html>

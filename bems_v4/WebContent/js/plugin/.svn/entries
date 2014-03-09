@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="253"
+   name=""
+   committed-date="2012-07-20T01:20:35.889571Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/plugin"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="jquery.contextMenu.js"
+   text-time="2012-07-21T01:40:49.564270Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="a1e487603d088139c96e6214168ab9e2"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.411261Z"/>
+<entry
+   committed-rev="223"
+   name="jquery.ui.js"
+   text-time="2012-07-21T01:40:49.576271Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="cbb5360876c3dd7bc2eecde69aadb9dd"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.467265Z"/>
+<entry
+   committed-rev="223"
+   name="jquery.js"
+   text-time="2012-07-21T01:40:49.587272Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="cf70032fcbd90932ffd0bead57da94d6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.510267Z"/>
+<entry
+   committed-rev="223"
+   name="jquery.min.js"
+   text-time="2012-07-21T01:40:49.599272Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="af693f9aea7dae36fb3bef4c9b6e56fb"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.550269Z"/>
+<entry
+   committed-rev="253"
+   name="jquery.ui.datepicker-zh-CN.js"
+   text-time="2012-07-21T01:40:49.606273Z"
+   committed-date="2012-07-20T01:20:35.889571Z"
+   checksum="26ec0e4199eee7d2e458e65bee26fd62"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.557270Z"/>
+</wc-entries>

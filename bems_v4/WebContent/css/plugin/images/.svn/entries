@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/plugin/images"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="page_white_delete.png"
+   text-time="2012-07-21T01:40:46.810113Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="baab23c41cdc34dcd6b068b23f963762"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.758110Z"/>
+<entry
+   committed-rev="223"
+   name="page_white_edit.png"
+   text-time="2012-07-21T01:40:46.817113Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="97176626eef35c7beb4f05a850325042"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.763110Z"/>
+<entry
+   committed-rev="223"
+   name="door.png"
+   text-time="2012-07-21T01:40:46.837114Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="632e5492ec3dfa720804f01ae0bd4d71"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.779111Z"/>
+<entry
+   committed-rev="223"
+   name="page_white_copy.png"
+   text-time="2012-07-21T01:40:46.860116Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="38de59d96ecaa147d8b5f440b4c4b0e6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.791112Z"/>
+<entry
+   committed-rev="223"
+   name="page_white_paste.png"
+   text-time="2012-07-21T01:40:46.871116Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="37f35a84b3c1e324341715a9cabfb8c8"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.797112Z"/>
+<entry
+   committed-rev="223"
+   name="cut.png"
+   text-time="2012-07-21T01:40:46.878117Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="63f7279113cee951e06603433cb9f3ad"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.802112Z"/>
+</wc-entries>

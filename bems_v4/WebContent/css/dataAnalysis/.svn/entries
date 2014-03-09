@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="347"
+   name=""
+   committed-date="2012-08-17T02:44:40.839623Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/dataAnalysis"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="304"
+   name="dataAnalysis.water.css"
+   text-time="2012-07-25T15:00:08.858819Z"
+   committed-date="2012-07-25T14:56:59.118633Z"
+   checksum="7ca0f886036bdc5be39036aff321becc"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T15:00:08.758813Z"/>
+<entry
+   committed-rev="304"
+   name="dataAnalysis.telephone.css"
+   text-time="2012-07-25T15:00:08.871820Z"
+   committed-date="2012-07-25T14:56:59.118633Z"
+   checksum="70b7a0226f7ce4eb9ee127eacdbf2378"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T15:00:08.811816Z"/>
+<entry
+   committed-rev="347"
+   name="dataAnalysis.download.css"
+   text-time="2012-08-17T02:11:26.444596Z"
+   committed-date="2012-08-17T02:44:40.839623Z"
+   checksum="e819aa94f8191dffe01ffcefc61cb212"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-24T08:32:54.165346Z"/>
+<entry
+   committed-rev="304"
+   name="dataAnalysis.ammeter.css"
+   text-time="2012-07-25T15:00:09.934881Z"
+   committed-date="2012-07-25T14:56:59.118633Z"
+   checksum="d0f358e1b016a1f530797bd5c04a8ed6"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T15:00:08.847818Z"/>
+</wc-entries>

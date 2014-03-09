@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/start"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="223"
+   name="jquery.ui.custom.css"
+   text-time="2012-07-21T01:40:46.705107Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8888363b618fe6517d4e2d6eb6e21df6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.695106Z"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+安装说明：
+数据库安装语句见附件：导入即可
+请在db包中的DB.java文件中设置自己的本地数据库连接信息
+如：
+private String DBUser = "root";
+private String DBPassword = "123456";
+=========================================
+1、项目采用svn进行同步管理，使用详情参见svn规范
+2、使用utf-8编码
+3、添加注释以及说明很必要，详情参见java代码规范
+4、在eclipse中配置说明：
+window-->preference-->java-->code style-->
+code template-->code-->new class file-->edite
+-->在弹出框中将以下代码拷贝进入：
+/**
+* @Copyright (c) 成都大学信息科学与技术学院
+* 服务外包与创意大赛
+*/
+${filecomment}
+${package_declaration}
+/**
+* @ClassName: ${type_name}
+* 说明：
+* ${todo}(Tell the reader such role.)
+* @Author LPM	【email:shouli1990@gmail.com 】
+* @Version V1.0	${date} ${time}
+*
+*/
+${typecomment}
+${type_declaration}
+
+-->继续点击：sure-->apply

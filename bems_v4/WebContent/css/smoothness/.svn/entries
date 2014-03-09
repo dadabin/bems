@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/smoothness"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="223"
+   name="jquery.ui.custom.css"
+   text-time="2012-07-21T01:40:44.088957Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="af3ef9a5e5d4ef8302b6af668f5c8738"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:44.080957Z"/>
+</wc-entries>

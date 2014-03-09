@@ -1,0 +1,35 @@
+<table width="100%" border="1" align="center">
+  <tr bgcolor="#6795B4">
+    <td colspan="3" align="center">楼层对比</td>
+  </tr>
+  <tr align="center">
+    <td width="29%">楼层（表号）</td>
+    <td width="39%">时间</td>
+    <td width="32%">用量（吨）</td>
+  </tr>
+
+{#foreach $T.serize as record begin=0 count=3}
+  
+  <tr align="center">
+    <td align="center"> {$T.record.name} </td>
+    
+    <td><table width="100%" border="1">
+      
+      {#foreach $T.record.times as aa begin=1 count=4}
+	<tr>
+        <td align="center"> {$T.aa} </td>
+      </tr>
+     {#/for}
+      
+    </table></td>
+    
+    <td><table width="100%%" border="1">
+     {#foreach $T.record.data as all begin=1 count=4}
+	<tr>
+        <td align="center"> {$T.all} </td>
+      </tr>
+     {#/for}
+    </table></td>
+  </tr>
+  {#/for}
+</table>

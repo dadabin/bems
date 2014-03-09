@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>个人信息</title>
+<script src="./js/jquery/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="./js/jquery/jquery.form.js" type="text/javascript"></script>
+<script src="./js/Shortcuts/Shortcuts_Users.js"></script>
+<script type="text/javascript">
+
+	 $(document).ready(function() {
+          $('#Modify_user').ajaxForm(function() {
+          // 提交表单
+	   	 	$(this).ajaxSubmit();
+			alert('发送成功！');
+	    	// 为了防止普通浏览器进行表单提交和产生页面导航（防止页面刷新？）返回false
+	    	return false;
+				 
+          });
+         });
+//	
+</script>
+</head>
+<body>
+	<form action="/rest/staffservice/createstaff" method="POST">
+<table width="100%" border="1">
+  <tr>
+    <td colspan="3" align="center" bgcolor="#6795B4">个人信息</td>
+  </tr>
+  <tr>
+    <td width="26%" align="center">基本信息</td>
+    <td width="63%"><table width="100%" border="1">
+      <tr>
+        <td align="center">员工ID：</td>
+        <td align="left"><input type="text" name="staffld" id="Staffid" /></td>
+      </tr>
+      <tr>
+        <td align="center">姓名：</td>
+        <td align="left"><input type="text" name="name" id="name" /></td>
+      </tr>
+      <tr>
+        <td align="center">密码：</td>
+        <td align="left"><input type="text" name="pwd" id="password" /></td>
+      </tr>
+      <tr>
+        <td align="center">电话号码：</td>
+        <td align="left"><input type="text" name="phoneNo" id="phonenumber" /></td>
+      </tr>
+      <tr>
+        <td align="center">邮件：</td>
+        <td align="left"><input type="text" name="email" id="email" /></td>
+      </tr>
+      <tr>
+        <td align="center">肖像：</td>
+        <td align="left"><input type="text" name="photo" id="photo" /></td>
+		<input type="hidden" name="role" value="1" />
+      </tr>
+    </table></td>
+    <td width="10%"><input type="submit" name="Modify_user" id="Modify_user" value="确认修改"/></td>
+  </tr>
+  <tr>
+    <td align="center">角色信息</td>
+    <td><table width="100%" border="1">
+      <tr>
+        <td width="51%" align="center">角色：</td>
+        <td width="49%" align="center">应急小组组长</td>
+      </tr>
+      <tr>
+        <td align="center">小组名称：</td>
+        <td align="center">电力维修小组</td>
+      </tr>
+    </table></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

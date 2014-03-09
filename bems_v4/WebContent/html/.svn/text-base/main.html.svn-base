@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>智能楼宇能耗管理系统</title>
+
+<!-- Main Controlling Styles -->
+<link href="./styles/main.css" rel="stylesheet" type="text/css" />
+<!-- Blue Theme Styles -->
+<link href="./themes/blue/styles.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="./images/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- 加载图表js  -->
+<script type='text/javascript' src='./js/jquery/jquery-1.7.2.js'></script>
+<script src="./js/highcharts/highcharts.js"></script>
+<script src="./js/highcharts/modules/exporting.js"></script>
+<script type="text/javascript" src="./js/analysis/analysis1.js"></script>
+
+<!-- 页面所需js -->
+<script type='application/javascript' src='./js/template/functions.js'></script>
+
+</head>
+<body>
+
+<!-- Top header/black bar start -->
+	<div id="header">
+    	<img src="./images/logo1.png" alt="淘青春" class="logo" />
+		<div id="title_div">
+			低碳智能楼宇能耗管理系统
+		</div>
+        <div id="searchbox">
+        <!--	<input type="text" class="searchinput" />
+            <input type="image" src="./images/search_btn.png" class="searchbtn" />
+			-->
+			<a href="login.html">
+				<img src="./images/icons/icon_delete.png"/>
+				<label>安全退出</label>
+			</a>
+    	</div>
+    </div>
+ <!-- Top header/black bar end -->   
+    
+<!-- Left side bar start -->
+        <div id="left">
+<!-- Left side bar start -->
+
+<!-- Toolbox dropdown start -->
+        	<div id="openCloseIdentifier"></div>
+            <div id="slider">
+                <ul id="sliderContent">
+                    <li><a href="#" title="">修改用户名</a></li>
+                    <li class="alt"><a href="#" title="">修改用户密码</a></li>
+                    <li><a href="#" title="">修改地址</a></li>
+                    <li class="alt"><a href="#" title="">详细信息</a></li>
+                    <li><a href="#" title="">登出</a></li>
+                </ul>
+                <div id="openCloseWrap">
+                    <div id="toolbox">
+            			<a href="#" title="Toolbox Dropdown" class="toolboxdrop">用户信息 <img src="./images/icon_expand_grey.png" alt="Expand" /></a>
+            		</div>
+                </div>
+            </div>
+<!-- Toolbox dropdown end -->   
+    	
+<!-- Userbox/logged in start -->
+            <div id="userbox">
+            	<p>欢迎！</p>
+                <p><span>管理员</span></p>
+                <ul>
+                	<li><a href="#" title="Check Mail"><img src="./images/icons/icon_mail.png" alt="Mail" /></a></li>
+                    <li><a href="#" title="Configure"><img src="./images/icons/icon_cog.png" alt="Configure" /></a></li>
+                    <li><a href="#" title="Logout"><img src="./images/icons/icon_unlock.png" alt="Logout" /></a></li>
+                </ul>
+            </div>
+<!-- Userbox/logged in end -->  
+
+<!-- Main navigation start -->         
+            <ul id="nav">
+            	<li>
+                    <a class="collapsed heading">数据采集</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="">电表数据采集</a></li>
+                        <li><a href="#" title="">水表数据采集</a></li>
+                        <li><a href="#" title="">电话费用采集</a></li>
+                    </ul>
+                </li>   
+                <li>
+                	<a class="collapsed heading">组态</a>
+                    <ul class="navigation">
+                        <li><a href="#" title="">组态</li>
+                        <li><a href="#" title="">组建水表信息</a></li>
+                        <li><a href="#" title="">组建电表信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="collapsed heading">数据分析</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="">水表数据分析</a></li>
+                        <li><a href="#" title="">电表数据分析</a></li>
+                        <li><a href="#" title="">电话数据分析</a></li>
+                    </ul>
+                </li>
+				<li>
+                    <a class="collapsed heading">基本信息登录</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="">水表基本信息</a></li>
+                        <li><a href="#" title="">电表基本信息</a></li>
+                        <li><a href="#" title="">电话基本信息</a></li>
+						<li><a href="#" title="">楼层基本信息</a></li>
+                    </ul>
+                </li>
+				<li>
+                    <a class="collapsed heading">人员基本信息维护</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="">应急小组管理</a></li>
+                        <li><a href="#" title="">添加人员</a></li>
+                        <li><a href="#" title="">查看通讯录</a></li>
+                    </ul>
+                </li>
+				<li>
+                    <a class="collapsed heading">节能计划</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="">节能计划对比</a></li>
+                        <li><a href="#" title="">制定节能减排计划</a></li>
+                        <li><a href="#" title="">查看能耗趋势</a></li>
+                    </ul>
+                </li>                 
+            </ul>
+        </div>      
+<!-- Main navigation end --> 
+
+<!-- Left side bar start end -->   
+
+<!-- Right side start -->     
+        <div id="right">
+<!-- Breadcrumb start -->  
+            <div id="breadcrumb">
+                <ul>	
+        			<li><img src="./images/icon_breadcrumb.png" alt="Location" /></li>
+                    <li><a href="#" title="">组态</a></li>
+                    <li>/</li>
+                    <li class="current">水表</li>
+                </ul>
+            </div>
+<!-- Breadcrumb end -->  
+
+<!-- Top/large buttons start -->  
+            <ul id="topbtns">
+            	<li class="desc"><strong>系统</strong><br/>工具</li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_calendar.png" alt="Calendar" /><br />查看日历</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_create.png" alt="Create" /><br />能源新闻</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_user.png" alt="Users" /><br />个人信息</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_media.png" alt="Media" /><br />通讯录</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_comment.png" alt="Comment" /><br />通知</a>
+                </li>
+                <li>
+                	<a href="#"><img src="./images/icons/icon_lrg_support.png" alt="Support" /><br />关于</a>
+                </li>
+            </ul>
+<!-- Top/large buttons end -->  
+	
+ <!-- Main content start -->
+   <div id="content">     
+            <div id="container">
+            	<div class="conthead">
+                        <h2>图表</h2>
+                 </div>
+                 <div class="contentbox">
+                    	<div id="mychart" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+                 </div>
+            </div>
+ <!-- Main content end --> 
+<!-- Footer start --> 
+            <p id="footer">&copy; 淘青春 The Young</p>
+<!-- Footer end -->      
+     
+        </div>
+<!-- Right side end --> 
+</body>
+</html>

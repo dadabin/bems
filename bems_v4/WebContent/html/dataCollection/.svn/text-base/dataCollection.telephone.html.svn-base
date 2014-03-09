@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/dataCollection/dataCollection.telePhone.css">
+<script src="./js/jquery/jquery.form.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+	 $(document).ready(function() {
+          $('#tel_data_excel_form').ajaxForm(function() {
+          // 提交表单
+	   	 	$(this).ajaxSubmit();
+			alert('数据上传成功！');
+	    	// 为了防止普通浏览器进行表单提交和产生页面导航（防止页面刷新？）返回false
+	    	return false;	 
+          });
+});
+//	
+</script>
+</head>
+<body>
+	
+	<div class="data_div" id="data_collection_tel_div">
+		<fieldset>
+			<legend>电话费用录入</legend>
+		请选择数据录入方式:<input type="radio" name="type" value="excel_type" id="excel_type" > <label for="excel_type">excel文件导入</label> &nbsp;
+					 <input type="radio" name="type" value="manual_type" id="manual_type"> <label for="manual_type">手动录入</label>
+				<div id="excel_type_div" class="type_div">
+					<br/>
+					获取电话费用录入模版：<a href="rest/exelTools/downLoadExcelTemplate?type=phonedata" >点击获取</a>
+					<form id="tel_data_excel_form" action="rest/exelTools/upLoadExcel?type=phonedata" enctype="multipart/form-data" method="post">
+						<br/>
+						<br/>
+						请选择你要导入的excel文件:
+						<input type="file" name="excelFile" />&nbsp;&nbsp;
+						<input type="submit" id="upload_excel" value="提交" onclick="alert('数据上传成功！');" /> 
+					</form>
+				</div>
+				
+				<div id="manual_type_div" class="type_div">
+					<form id="tel_data_manual_form">
+						<table border="1">
+							<thead>
+								<tr>
+									<th>编号</th> <th>电话号码</th> <th>电话所在楼层</th> <th>电话所在房间</th> <th>电话权限</th> <th>电话责任人</th><th>电话费用</th>              
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td id="tel_data_manual_form_number1">13880734982</td>
+									<td id="tel_data_manual_form_floorId1">1</td>
+									<td id="tel_data_manual_form_room1">514</td>
+									<td id="tel_data_manual_form_power1">国际长途</td>
+									<td id="tel_data_manual_form_responsible1">秦凡鹏</td>
+									<td><input name="fee1" type="text"  id="tel_data_manual_form_fee1"/></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td id="tel_data_manual_form_number2">13880734982</td>
+									<td id="tel_data_manual_form_floorId2">4</td>
+									<td id="tel_data_manual_form_room2">516</td>
+									<td id="tel_data_manual_form_power2">国际长途</td>
+									<td id="tel_data_manual_form_responsible2">秦凡鹏</td>
+									<td><input name="fee2" type="text" id="tel_data_manual_form_fee2"/></td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td id="tel_data_manual_form_number3">13880734982</td>
+									<td id="tel_data_manual_form_floorId3">2</td>
+									<td id="tel_data_manual_form_room3">510</td>
+									<td id="tel_data_manual_form_power3">国际长途</td>
+									<td id="tel_data_manual_form_responsible3">秦凡鹏</td>
+									<td><input name="fee3" type="text"  id="tel_data_manual_form_fee3"/></td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td id="tel_data_manual_form_number4">13880734982</td>
+									<td id="tel_data_manual_form_floorId4">5</td>
+									<td id="tel_data_manual_form_room4">515</td>
+									<td id="tel_data_manual_form_power4">国际长途</td>
+									<td id="tel_data_manual_form_responsible4">秦凡鹏</td>
+									<td><input name="fee4" type="text"  id="tel_data_manual_form_fee4"/></td>
+								</tr>
+								<tr>
+									<td>5</td>
+									<td id="tel_data_manual_form_number5">13880734982</td>
+									<td id="tel_data_manual_form_floorId5">7</td>
+									<td id="tel_data_manual_form_room5">519</td>
+									<td id="tel_data_manual_form_power5">国际长途</td>
+									<td id="tel_data_manual_form_responsible5">秦凡鹏</td>
+									<td><input name="fee5" type="text" id="tel_data_manual_form_fee5"/></td>
+								</tr>
+								<tr>
+									<td colspan="7" style="text-align:center;">
+									<input type="button" id="tel_basic_data_submitBtn" value="提交">
+									<input type="reset"  value="重置">
+						</td>
+					</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+
+		</fieldset>
+	</div>
+	<script src="js/dataCollection/dataCollection.telePhone.js"></script>
+</body>
+</html>

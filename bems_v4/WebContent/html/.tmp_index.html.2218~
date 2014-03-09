@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" /> 
+<title>低碳智能楼宇能耗管理系统</title>
+
+<!-- Main Controlling Styles -->
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link href="./styles/main.css"  rel="stylesheet" type="text/css" />
+<!-- Blue Theme Styles -->
+<link href="./themes/blue/styles.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="./images/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script  src='./js/plugin/jquery.js'></script>
+<script  src="./js/plugin/jquery.ui.js"></script>
+<script src='./js/template/functions.js'></script>
+
+</head>
+<body>
+
+<!-- Top header/black bar start -->
+	<div id="header">
+    	<img src="./images/logo1.png" alt="淘青春" class="logo" />
+		<div id="title_div">
+			低碳智能楼宇能耗管理系统
+		</div>
+        <div id="searchbox">
+        <!--	<input type="text" class="searchinput" />
+            <input type="image" src="./images/search_btn.png" class="searchbtn" />
+			-->
+			<a href="login.html">
+				<img src="./images/icons/icon_delete.png"/>
+				<label>安全退出</label>
+			</a>
+    	</div>
+    </div>
+ <!-- Top header/black bar end -->   
+    
+<!-- Left side bar start -->
+        <div id="left">
+<!-- Left side bar startaa -->
+
+<!-- Toolbox dropdown start -->
+        	<div id="openCloseIdentifier"></div>
+            <div id="slider">
+                <ul id="sliderContent">
+                    <li><a href="#" title="">修改用户名</a></li>
+                    <li><a href="#" title="">修改用户密码</a></li>
+                    <li><a href="#" title="">个人详细信息</a></li>
+					<li><a href="#" title="">查收消息</a></li>
+					<li><a href="#" title="">个人设置</a></li> 
+                </ul>
+				<div id="openCloseWrap">
+                    <div id="toolbox">
+            			<a href="#" title="Toolbox Dropdown" class="toolboxdrop">账户管理 <img src="./images/icon_expand_grey.png" alt="Expand" /></a>
+            		</div>
+            	</div>
+				
+            </div>
+			
+			
+<!-- Toolbox dropdown end -->   
+    	
+<!-- Userbox/logged in start -->
+            <div id="userbox">
+            	<p>欢迎！</p>
+                <p><span id="login_user_infor">管理员</span></p>
+                <ul>
+                	<li><div id="msg_count"></div><a href="#" title="消息"><img src="./images/icons/icon_mail.png" alt="消息" /></a></li>
+                    <li><a href="#" title="个人设置"><img src="./images/icons/icon_cog.png" alt="个人设置" /></a></li>
+                    <li><a onclick="logout()" href="javascript:window.opener=null;%20window.close();" title="登出"><img src="./images/icons/icon_unlock.png" alt="登出" /></a></li>
+                </ul>
+            </div>
+<!-- Userbox/logged in end -->  
+
+<!-- Main navigation start -->         
+            <ul id="nav">
+            	<li>
+                    <a class="collapsed heading">数据采集</a>
+                     <ul class="navigation">
+                     	<li><a href="#" title="" id="data_collection_water">水表数据采集</a></li>
+                        <li><a href="#" title="" id="data_collection_ammeter">电表数据采集</a></li>
+                        <li><a href="#" title="" id="data_collection_telephone">电话费用采集</a></li>
+                    </ul>
+                </li> 
+				  
+                <li>
+                    <a class="collapsed heading">数据分析</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="" id="data_anaylis_water">水表相关</a></li>
+                        <li><a href="#" title="" id="data_anaylis_ammeter">电表相关</a></li>
+                        <li><a href="#" title="" id="data_anaylis_telephone">电话相关</a></li>
+						<li><a href="#" title="" id="data_anaylis_download">基本数据下载</a></li>
+
+                    </ul>
+                </li>
+				
+				<li>
+                    <a class="collapsed heading">用户管理</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="" id="user_management_emergency">应急小组管理</a></li>
+                        <li><a href="#" title="" id="user_management_add">添加人员</a></li>
+                        <li><a href="#" title="" id="user_management_look">查看系统用户</a></li>
+                        <li><a href="#" title="" id="url_management">权限分配</a></li>
+                    </ul>
+                </li>
+				
+				<li>
+                    <a class="collapsed heading">节能计划</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="" id="egergy_save_making">制定节能减排计划</a></li>
+                        <li><a href="#" title="" id="egergy_save_look">查看节能计划</a></li>
+                    </ul>
+                </li>   
+				<li>
+                    <a class="collapsed heading">信息维护</a>
+                     <ul class="navigation">
+                        <li><a href="#" title="" id="basic_data_water">水表相关</a></li>
+                        <li><a href="#" title="" id="basic_data_ammeter">电表相关</a></li>
+                        <li><a href="#" title="" id="basic_data_telephone">电话相关</a></li>
+						<li><a href="#" title="" id="basic_data_floor">楼层相关</a></li>
+						<li><a href="#" title="" id="basic_data_zu_tai">组态布局</a></li>
+                    </ul>
+                </li>   
+				              
+            </ul>
+        </div>      
+<!-- Main navigation end --> 
+
+<!-- Left side bar start end -->   
+
+<!-- Right side start -->     
+        <div id="right">
+
+<!-- Breadcrumb start -->  
+            <div id="breadcrumb">
+                <ul>	
+        			<li><img src="./images/icon_breadcrumb.png" alt="Location" /></li>
+                    <li><a href="#" title="" id="first_nav"></a></li>
+                    <li>/</li>
+                    <li id="seconde_nav"></li>
+                </ul>
+            </div>
+<!-- Breadcrumb end -->  
+
+<!-- Top/large buttons start -->  
+            <ul id="topbtns">
+            	<li class="desc"><strong>点击</strong><br />进入</li>
+                <li>
+                	<a href="#" id="Shortcuts_Calendar"><img src="./images/icons/icon_lrg_calendar.png" alt="Calendar" /><br />系统任务</a>
+                </li>
+                <li>
+                	<a href="#" id="Shortcuts_Create"><img src="./images/icons/icon_lrg_create.png" alt="Create" /><br />节能减排</a>
+                </li>
+                <li>
+                	<a href="#" id="Shortcuts_Users"><img src="./images/icons/icon_lrg_user.png" alt="Users" /><br />个人信息</a>
+                </li>
+                <li>
+                	<a href="#" id="Shortcuts_Contacts"><img src="./images/icons/icon_lrg_media.png" alt="Contacts" /><br />通讯录</a>
+                </li>
+                <li>
+                	<a href="#" id="Shortcuts_Notice"><img src="./images/icons/icon_lrg_comment.png" alt="Notice" /><br />通知</a>
+                </li>
+                <li>
+                	<a href="#" id="Shortcuts_About"><img src="./images/icons/icon_lrg_support.png" alt="About" /><br />关于</a>
+                </li>
+            </ul>
+<!-- Top/large buttons end -->  
+	
+ <!-- Main content start -->
+   <div id="content">     
+            <div id="container_of_index_page">
+            	<div class="conthead">
+                        <h2></h2>
+                 </div>
+                 <div class="contentbox">
+                    	<span id="wel_span">欢迎进入低碳智能楼宇能耗管理系统</span>
+                 </div>
+            </div>
+ <!-- Main content end --> 
+<!-- Footer start --> 
+            <p id="footer">&copy; 淘青春 The Young</p>
+<!-- Footer end -->      
+     
+        </div>
+<!-- Right side end --> 
+
+<!-- 加载图表js  -->
+
+<script src="./js/highcharts/highcharts.js"></script>
+<script src="./js/highcharts/modules/exporting.js"></script>
+<script src="./js/jquery/jquery.form.js"></script>
+<script src="./js/jquery/jquery.message.js"></script>
+<script type="text/javascript" src="./js/template/jquery-jtemplates.js"></script>
+<!-- 页面所需js -->
+
+
+</body>
+</html>

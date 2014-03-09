@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="360"
+   name=""
+   committed-date="2012-08-18T14:46:23.528701Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/basicDataManagement"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="359"
+   name="basicDataManagement.floor.js"
+   text-time="2012-08-17T09:14:00.482462Z"
+   committed-date="2012-08-18T14:38:09.616234Z"
+   checksum="3e89fead65f6006cec5765ed86c462fb"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-24T14:01:17.831204Z"/>
+<entry
+   committed-rev="296"
+   name="basicDataManagement.water.js"
+   text-time="2012-07-24T14:01:17.961211Z"
+   committed-date="2012-07-24T13:39:44.594095Z"
+   checksum="f66175a83922704ff26a873124e83f0b"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-24T14:01:17.859205Z"/>
+<entry
+   committed-rev="296"
+   name="basicDataManagement.telephone.js"
+   text-time="2012-07-24T14:01:17.997213Z"
+   committed-date="2012-07-24T13:39:44.594095Z"
+   checksum="1816c47862c4fcf9d04f449411adb8f7"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-24T14:01:17.865206Z"/>
+<entry
+   committed-rev="296"
+   name="basicDataManagement.ammeter.js"
+   text-time="2012-07-24T14:01:18.010214Z"
+   committed-date="2012-07-24T13:39:44.594095Z"
+   checksum="f6551fb3fe8fb58c8c7284b170239f6e"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-24T14:01:17.872206Z"/>
+<entry
+   committed-rev="360"
+   name="basicDataManagement.zu_tai.js"
+   text-time="2012-08-18T15:29:51.220877Z"
+   committed-date="2012-08-18T14:46:23.528701Z"
+   checksum="085aa3c9b53e927abb5aff3e43e01caa"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-08-18T15:29:51.205277Z"/>
+</wc-entries>

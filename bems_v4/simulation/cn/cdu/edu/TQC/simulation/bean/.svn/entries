@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/simulation/cn/cdu/edu/TQC/simulation/bean"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="SMeter.java"
+   text-time="2012-07-21T01:40:28.824084Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="55abee206ac7a78afeee2a123ef15abf"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.811083Z"/>
+<entry
+   committed-rev="223"
+   name="SAmmeter.java"
+   text-time="2012-07-21T01:40:28.831084Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="a41809906ffaeb2dcf7f2c002b3f32a0"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.816083Z"/>
+</wc-entries>

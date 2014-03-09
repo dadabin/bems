@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="310"
+   name=""
+   committed-date="2012-07-25T18:13:04.040758Z"
+   url="https://180.84.33.71/svn/code/bems_v4/simulation/cn/cdu/edu/TQC/simulation"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="timer"
+   kind="dir"/>
+<entry
+   name="dao"
+   kind="dir"/>
+<entry
+   name="bean"
+   kind="dir"/>
+<entry
+   name="io"
+   kind="dir"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>智能楼宇能耗管理</title>
+<link href="./styles/login.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+	<div id="logincontainer">
+    	<h1>智能楼宇<span>能耗管理系统</span></h1>
+        <div id="loginbox">
+        	<form action="login" method="post"/>
+                <div class="inputcontainer">
+                    <img src="./images/icons/icon_username.png" alt="用户名" />
+                    <label for="username">用户名:</label>
+                    <input type="text" id="username" name="username"/>
+                </div>
+                <div class="inputcontainer">
+                    <img src="./images/icons/icon_locked.png" alt="密码" />
+                    <label for="password">密码:</label>
+                    <input type="password" id="password" name="password"/>
+                </div>
+				<div>
+                    <input type="radio" name="power" value="1" checked/>中层管理者
+					<input type="radio" name="power" value="2" />总务人员
+                </div>
+                <input type="submit" value="登陆" class="loginsubmit" />
+                <p><a href="#">忘记密码</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

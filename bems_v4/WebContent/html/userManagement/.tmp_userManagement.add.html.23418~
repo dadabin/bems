@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="css/userManagement/userManagement.add.css">
+<script src="js/userManagement/userManagement.add.js"></script>
+</head>
+<body>
+	
+	<!--==========================================-->
+	<div id="user_manage_add_div" class="data_div">
+		<fieldset>
+			<legend>添加用户</legend>
+			<form name="user_manage_add_form" method="post" enctype="multipart/form-data" action="rest/staffservice/createstaffandpic" >
+			<table border="0" id="user_manage_add_table">
+			<tr>
+			<td style="text-align:right;">登陆名:</td>
+					<td><input name="user_add_id" /></td>
+			</tr>
+			<tr>
+					<td style="text-align:right;">密码:</td>
+					<td><input name="user_add_pwd" /></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">姓名:</td>
+					<td><input name="user_add_name" /></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">电话号码:</td>
+					<td><input name="user_add_tel" /></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">邮箱地址:</td>
+					<td><input name="user_add_email" /></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">用户角色:</td>
+					<td>
+						<select name="user_add_role">
+							<option value="zong">--请选择用户角色--</option>
+							<option value="zong">总务人员</option>
+							<option value="manage">中层管理者</option>
+							<option value="emergency">应急小组成员</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">头像:</td>
+					<td><input name="user_add_pic" type="file"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" id="water_basic_data_submitBtn" value="提交">
+						<input type="reset"  value="重置">
+					</td>
+				</tr>
+				
+			</table>
+			</form>
+			
+		</fieldset>
+	</div>
+	
+</body>
+</html>

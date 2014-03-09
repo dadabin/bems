@@ -1,0 +1,25 @@
+#ameter_basic_div
+{
+	margin-left:20px;
+}
+
+#ameter_basic_div table
+{
+	width:70%;
+	margin-left:130px;
+}
+#ameter_basic_div table tr,td
+{
+	padding:1px 2px;
+}
+
+select {
+	position:relative;
+	float:none;
+    padding:3px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width:100px
+}
+

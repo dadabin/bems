@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="java分包说明.txt"
+   text-time="2012-07-21T01:40:27.917032Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="14db676bcf5563198447810c813929f9"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.874030Z"/>
+<entry
+   committed-rev="223"
+   name="svn使用规范.docx"
+   text-time="2012-07-21T01:40:27.923032Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3ef37dc42d297050effb182e4a0e95cb"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.882030Z"/>
+<entry
+   committed-rev="223"
+   name="外部依赖包说明.txt"
+   text-time="2012-07-21T01:40:27.948034Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="20f530e23a5c646565a37e0980596579"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.886030Z"/>
+<entry
+   committed-rev="223"
+   name="项目安装配置说明.txt"
+   text-time="2012-07-21T01:40:27.956034Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="2c2fae683944544bf9699e1d7761ce15"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.892031Z"/>
+<entry
+   committed-rev="223"
+   name="java代码规范.docx"
+   text-time="2012-07-21T01:40:27.962035Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="10be72d984d7d1e344ad91faa95d2f39"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.899031Z"/>
+<entry
+   committed-rev="223"
+   name="BEMS智能楼宇能耗管理系统web-service接口文档(初稿).docx"
+   text-time="2012-07-21T01:40:27.970035Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="fdccfff6e313b58dabfafe428261f327"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.906031Z"/>
+<entry
+   committed-rev="223"
+   name="MeterRandom.txt"
+   text-time="2012-07-21T01:40:27.977035Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="f5c52d17417e5fdd90f7ff60f2a89bb3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.910032Z"/>
+</wc-entries>

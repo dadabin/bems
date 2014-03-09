@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/images/examples"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="example1_lrg.jpg"
+   text-time="2012-07-21T01:40:38.548640Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="fe259610456ca4a6b846124fbe02d3fc"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.437634Z"/>
+<entry
+   committed-rev="223"
+   name="example2_lrg.jpg"
+   text-time="2012-07-21T01:40:38.556641Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="6e73920fa9c715b562e2dfc903460784"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.454635Z"/>
+<entry
+   committed-rev="223"
+   name="example3_lrg.jpg"
+   text-time="2012-07-21T01:40:38.565641Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="90b42d89535d40522a4470ea9d9c7014"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.471636Z"/>
+<entry
+   committed-rev="223"
+   name="example4_lrg.jpg"
+   text-time="2012-07-21T01:40:38.575642Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3d4516424e656bf6528fa2682b37c7f5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.500637Z"/>
+<entry
+   committed-rev="223"
+   name="example5_lrg.jpg"
+   text-time="2012-07-21T01:40:38.582642Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="cada1ada8e9bb305b3b67c3af6ea5baf"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.512638Z"/>
+<entry
+   committed-rev="223"
+   name="example1_sml.jpg"
+   text-time="2012-07-21T01:40:38.589642Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="ad448cb14d90d069e7f737c7d30a6302"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.518638Z"/>
+<entry
+   committed-rev="223"
+   name="example2_sml.jpg"
+   text-time="2012-07-21T01:40:38.595643Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="fe2ada283654497a8e2bef6879be55e9"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.523639Z"/>
+<entry
+   committed-rev="223"
+   name="example3_sml.jpg"
+   text-time="2012-07-21T01:40:38.602643Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="505986eead9d20090ca2619424d727a5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.528639Z"/>
+<entry
+   committed-rev="223"
+   name="example4_sml.jpg"
+   text-time="2012-07-21T01:40:38.608644Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="80d1a07d6698e57ea795e28ff24cde38"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.533639Z"/>
+<entry
+   committed-rev="223"
+   name="example5_sml.jpg"
+   text-time="2012-07-21T01:40:38.615644Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="0d0b85e1cb663ec2bda45078570e68f3"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:38.539640Z"/>
+</wc-entries>

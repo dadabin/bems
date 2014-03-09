@@ -1,0 +1,22 @@
+
+<table width="100%" border="1">
+  <tr>
+    <td colspan="5" align="center" bgcolor="#6795B4">通讯录</td>
+  </tr>
+  <tr align="center" bgcolor="#EEE">
+  	<td width="31%">选择<input type="checkbox" id="checkAll" name="checkAll"></td>
+    <td width="31%">姓名</td>
+    <td width="28%">编号</td>
+  </tr>
+  
+  {#foreach $T.staff as record}
+     
+  	<tr align="center">
+  	<td> <input type="checkbox" name="user_name" value="{$T.record.staffId}"> </td>
+    <td> {$T.record.name} </td>
+    <td> {$T.record.staffId} </td>
+  </tr>
+  
+   {#/for}
+  
+</table>

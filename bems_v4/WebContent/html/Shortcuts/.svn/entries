@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="344"
+   name=""
+   committed-date="2012-08-16T16:26:03.459470Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/html/Shortcuts"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="Shortcuts_Notice"
+   kind="dir"/>
+<entry
+   committed-rev="328"
+   name="Shortcuts_Contacts.html"
+   text-time="2012-07-27T06:43:51.282671Z"
+   committed-date="2012-07-29T03:08:52.175527Z"
+   checksum="b875b663c1f5f2fb8fc5c492eff2db6f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-25T17:03:54.549544Z"/>
+<entry
+   committed-rev="308"
+   name="Shortcuts_Users.html"
+   text-time="2012-07-25T17:03:54.585546Z"
+   committed-date="2012-07-25T15:49:28.549023Z"
+   checksum="9f3dd10818f5e70e2a9f152ca339b626"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T17:03:54.541544Z"/>
+<entry
+   committed-rev="308"
+   name="Shortcuts_Notice.html"
+   text-time="2012-07-25T17:03:54.612548Z"
+   committed-date="2012-07-25T15:49:28.549023Z"
+   checksum="b0fd299d86f13301c9b078d40c08269c"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T17:03:54.555545Z"/>
+<entry
+   committed-rev="282"
+   name="Shortcuts_Create.html"
+   text-time="2012-07-22T10:36:49.935443Z"
+   committed-date="2012-07-22T14:10:02.134983Z"
+   checksum="a5ddfcd08b4006736ca68acd1030e1c7"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="308"
+   name="Shortcuts_Calendar.html"
+   text-time="2012-07-25T17:03:54.625549Z"
+   committed-date="2012-07-25T15:49:28.549023Z"
+   checksum="c405bff6b3b0a52cd9e331cd546a8154"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-25T17:03:54.574546Z"/>
+<entry
+   committed-rev="320"
+   name="Shortcuts_About.html"
+   text-time="2012-07-26T05:10:19.875901Z"
+   committed-date="2012-07-26T04:20:33.660778Z"
+   checksum="b43dbf766961efa6af2b6a9c6bbd3cdb"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-26T05:10:19.830899Z"/>
+</wc-entries>

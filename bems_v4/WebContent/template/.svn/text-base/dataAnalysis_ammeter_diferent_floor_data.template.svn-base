@@ -1,0 +1,52 @@
+<!-- 模板内容 -->
+<table  width="100%" border="1" align="center">
+	<tr bgcolor="#6795B4">
+    	<td colspan="4" align="center">$T.name</td>
+  	</tr>
+    <tr>
+     <th style="width:25% height="20px">
+          仪表编号
+        </th>
+        <th style="width:25% height="20px">
+            年份
+        </th>
+        <th style="width:25% height="20px">
+           月份
+        </th>
+         <th style="width:25% height="20px">
+           用量(度)
+           <table>
+           <tr>
+           {#foreach $T.floorNames as floorName}
+           <td>{$T.floorName.floorname}</td>
+           {#/for}</tr>
+        </th>
+    </tr>
+    
+    {#foreach $T.table as record}
+    <tr>
+    	<td>
+            {$T.record.id}
+        </td>
+        <td>
+            {$T.record.year}
+        </td>
+        <td>
+            {$T.record.month}
+        </td>
+        <td>
+        {$T.record.data}
+           <table><tr>
+           {#foreach $T.table.data as d}
+           <td>{$T.d.floordata}</td>
+           
+            {#/for}
+           </tr></table> 
+        </td>
+    </tr>
+    {#/for}
+</table>
+
+
+
+

@@ -1,0 +1,43 @@
+<!-- 模板内容 -->
+<table width="100%%" border="1">
+  <tr bgcolor="#6795B4">
+    <td colspan="5" align="center">发送信息列表</td>
+  </tr>
+  <tr align="center" bgcolor="#EEE">
+    <td>选择</td>
+    <td>标题</td>
+    <td>接收人</td>
+    <td>发送人</td>
+    <td>发送时间</td>
+  </tr>
+  
+   {#foreach $T.inform as record}
+ 
+  <tr align="center">
+    <td>
+    	<input type="checkbox" name="msg_box2" value="{$T.record.informRecordId}" onClick="chooseOne(this);"/>
+    </td>
+    <td>
+    	{$T.record.tittle}
+    </td>
+    <td>
+    	{$T.record.acceptPerson}
+    </td>
+       <td>
+    	{$T.record.informPerson}
+    </td>
+    <td>
+    	{$T.record.sendTime}
+    </td>
+  </tr>
+  
+  {#/for}
+  
+ <tr align="right">
+  	<td colspan="5">
+  		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  		<strong><a href="#" id="detail2">查看</a> | <a href="#" id="delet2">删除</a></strong>
+  	</td>
+  </tr>
+  
+</table>

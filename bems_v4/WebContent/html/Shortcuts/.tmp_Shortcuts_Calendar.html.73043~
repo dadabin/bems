@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>查看日历</title>
+<link href="css/base/dow_jui.css" rel="stylesheet" type="text/css" />
+<link href="css/base/fullcalendar.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/template/enhance.js"></script>
+<script type="text/javascript" src="js/template/excanvas.js"></script>
+<script type="text/javascript" src="js/template/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="js/template/fullcalendar.min.js"></script>
+<script type="text/javascript" src="js/template/visualize.jQuery.js"></script>
+<script type="text/javascript" src="js/Shortcuts/Shortcuts_Calendar.js"></script>
+
+
+</head>
+<body>
+     <div class="contentbox">
+           <div id="Shortcuts_Calendar_content"></div>
+     </div>
+</body>
+</html>

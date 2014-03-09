@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="361"
+   name=""
+   committed-date="2012-08-18T15:28:50.498375Z"
+   url="https://180.84.33.71/svn/code/bems_v4"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="build"
+   kind="dir"/>
+<entry
+   committed-rev="334"
+   name=".classpath"
+   text-time="2012-08-13T02:40:54.442211Z"
+   committed-date="2012-08-12T14:11:32.546269Z"
+   checksum="8849873d3434c3702531a43e76a85221"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-13T02:40:54.427210Z"/>
+<entry
+   name="说明文档"
+   kind="dir"/>
+<entry
+   name="simulation"
+   kind="dir"/>
+<entry
+   committed-rev="223"
+   name=".project"
+   text-time="2012-07-21T01:40:50.085300Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="dbc2a775eeb4f95d76b3e5e3f61ee03e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:27.990036Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="WebContent"
+   kind="dir"/>
+<entry
+   committed-rev="315"
+   name="AmmeterRandom.txt"
+   text-time="2012-07-26T00:22:52.710759Z"
+   committed-date="2012-07-26T00:18:14.435241Z"
+   checksum="d98c513527500b442cc5460b25f614b9"
+   last-author="tqc"
+   kind="file"
+   schedule="delete"
+   prop-time="2012-07-26T00:22:52.700759Z"/>
+<entry
+   committed-rev="315"
+   name="MeterRandom.txt"
+   text-time="2012-07-26T00:22:52.720759Z"
+   committed-date="2012-07-26T00:18:14.435241Z"
+   checksum="6ec893b43cec715f29758577341f07b6"
+   last-author="tqc"
+   kind="file"
+   schedule="delete"
+   prop-time="2012-07-26T00:22:52.700759Z"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+</wc-entries>

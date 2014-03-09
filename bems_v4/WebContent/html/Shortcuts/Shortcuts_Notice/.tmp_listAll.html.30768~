@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>发送信息列表</title>
+<script type="text/javascript" src="js/template/jquery-jtemplates.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+	
+	(function($){
+        $.getRootPath = function(){
+            var strFullPath = window.document.location.href;
+            var strPath = window.document.location.pathname;
+            var pos = strFullPath.indexOf(strPath);
+            var prePath = strFullPath.substring(0, pos);
+            var postPath = strPath.substring(0, strPath.substr(1).indexOf('/') + 1);
+            //alert(prePath+postPath);
+            return (prePath + postPath);
+        };
+    })(jQuery);
+	
+	var url = $.getRootPath()+"/rest/informService/getAll";
+	$.ajax({
+        type: "GET",
+        dataType: "json",
+        url: url,
+        success: function(msg){
+        	var myobj = eval(msg);
+			showTable(myobj);
+			
+        },
+		Error:function(msg){
+			alert("数据获取失败！");
+		}
+		
+    });
+	
+	function showTable(mdata){
+		
+		//设置debug模式
+		  $.jTemplatesDebugMode(true);
+		  // 附上模板
+		  $("#msgTable_all").setTemplateURL("template/allMsg.template");
+		  // 给模板加载数据
+		  $("#msgTable_all").processTemplate(mdata);
+	}
+});
+</script>
+
+</head>
+<body>
+	
+<div id="msgTable_all"></div>
+</body>
+</html>

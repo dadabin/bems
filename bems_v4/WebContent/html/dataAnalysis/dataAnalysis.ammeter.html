@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="css/dataAnalysis/dataAnalysis.ammeter.css">
+<!--<script type="text/javascript" src="js/plugin/jquery.ui.datepicker-zh-CN.js"></script>-->
+
+<script type="text/javascript" src="js/template/jquery-jtemplates.js"></script>
+<script type="text/javascript" src="js/dataAnalysis/dataAnalysis.ammeter.js"></script>
+
+</head>
+<body>
+	
+	<div id="dataAnalysis_ammeter_meunu_bar_div">
+	
+		<ul>
+			<li><a href="#tabs-1">各楼层间用电总量对比</a></li>
+			<li><a href="#tabs-2">楼层内不同电路对比</a></li>
+			<li><a href="#tabs-3">楼层间相同电路对比 </a></li>
+			<li><a href="#tabs-4">整栋楼不同电路 </a></li>
+			<li><a href="#tabs-5">整栋楼用电量 </a></li>
+			<li><a href="#tabs-6">单表数据查看</a></li>
+		</ul>
+		
+		<div id="tabs-1">
+			
+			<form id="dataAnalysis_ammeter_diferent_floors_data_constrast_form">
+				请选择查询方式:
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_data_constrast_week" value="week">
+				<label for="dataAnalysis_ammeter_diferent_floors_data_constrast_week">按周查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_data_constrast_month" value="month">
+				<label for="dataAnalysis_ammeter_diferent_floors_data_constrast_month">按月查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_data_constrast_week" value="quarter">
+				<label for="dataAnalysis_ammeter_diferent_floors_data_constrast_quarter">按季度查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_data_constrast_year" value="year">
+				<label for="dataAnalysis_ammeter_diferent_floors_data_constrast_year">按年查询</label>
+				
+				<br/>
+				请选择电表所在地理位置:
+			<input type="checkbox" name="floors" value="1" id="floors_1"><label for="floors_1">一楼</label>
+			<input type="checkbox" name="floors" value="2" id="floors_2"><label for="floors_2">二楼</label>
+			<input type="checkbox" name="floors" value="3" id="floors_3"><label for="floors_3">三楼</label>
+			<input type="checkbox" name="floors" value="4" id="floors_4"><label for="floors_4">四楼</label>
+			<input type="checkbox" name="floors" value="6" id="floors_5"><label for="floors_5">五楼</label>
+			<input type="checkbox" name="floors" value="7" id="floors_6"><label for="floors_6">六楼</label>
+			<input type="checkbox" name="floors" value="5" id="floors_0"><label for="floors_0">地下室</label>
+				<br/>
+				请选择日期范围:
+				从<input type="text" name="ammeter_diferent_floors_data_constrast_begin_time" id="ammeter_diferent_floors_data_constrast_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="ammeter_diferent_floors_data_constrast_end_time" id="ammeter_diferent_floors_data_constrast_end_time"  size="10" class="date_picker"/>
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_diferent_floors_data_constrast_btn">
+				<input type="button" value="填入分析内容" id="opener_1">
+				<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+				
+			
+			</form>
+		</div>
+		<!--===============================================-->
+		<div id="tabs-2">
+			<form id="dataAnalysis_ammeter_floor_data_constrast_form">
+			请选择电表所在楼层:
+				<select id="location1" name="location1">
+					<option>--请选择电表所在楼层--</option>
+					<option value="1">1楼</option>
+					<option value="2">2楼</option>
+					<option value="3">3楼</option>
+					<option value="4">4楼</option>
+					<option value="5">5楼</option>
+					<option value="6">6楼</option>
+					<option value="-1">地下室</option>
+				</select>
+			
+			<br/>
+			
+			请选择查询方式:
+			<input type="radio" name="dataAnalysis_ammeter_floor_data_constrast_type" id="dataAnalysis_ammeter_floor_data_constrast_week" value="week">
+				<label for="dataAnalysis_ammeter_floor_data_constrast_week">按周查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_floor_data_constrast_type" id="dataAnalysis_ammeter_floor_data_constrast_month" value="month">
+				<label for="dataAnalysis_ammeter_floor_data_constrast_month">按月查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_floor_data_constrast_type" id="dataAnalysis_ammeter_floor_data_constrast_week" value="quarter">
+				<label for="dataAnalysis_ammeter_floor_data_constrast_quarter">按季度查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_floor_data_constrast_type" id="dataAnalysis_ammeter_floor_data_constrast_year" value="year">
+				<label for="dataAnalysis_ammeter_floor_data_constrast_year">按年查询</label>
+				
+			<br/>
+			请选择日期范围:
+				从<input type="text" name="ammeter_floor_data_constrast_begin_time" id="ammeter_floor_data_constrast_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="ammeter_floor_data_constrast_end_time" id="ammeter_floor_data_constrast_end_time"  size="10" class="date_picker"/>
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_floor_data_constrast_btn">
+				<input type="button" value="填入分析内容" id="opener_2">
+					<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+			
+			</form>
+		</div>
+		<!--===============================================-->	
+		<div id="tabs-3">
+			<form id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_form">
+				
+				请选择电路类别:
+				<select name="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_select" id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_select">
+					<option>--请选择电路类别--</option>
+					<option value="设备电路">设备电路</option>
+					<option value="空调电路">空调电路</option>
+					<option value="照明电路">照明电路</option>
+				</select>
+				<br/>
+					请选择电表所在地理位置:
+			<input type="checkbox" name="floors1" value="1" id="floors1_1"><label for="floors_1">一楼</label>
+			<input type="checkbox" name="floors1" value="2" id="floors1_2"><label for="floors_2">二楼</label>
+			<input type="checkbox" name="floors1" value="3" id="floors1_3"><label for="floors_3">三楼</label>
+			<input type="checkbox" name="floors1" value="4" id="floors1_4"><label for="floors_4">四楼</label>
+			<input type="checkbox" name="floors1" value="6" id="floors1_5"><label for="floors_5">五楼</label>
+			<input type="checkbox" name="floors1" value="7" id="floors1_6"><label for="floors_6">六楼</label>
+			<input type="checkbox" name="floors1" value="5" id="floors1_0"><label for="floors_0">地下室</label>
+				<br/>
+				
+				请选择查询方式:
+					<input type="radio" name="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_week" value="week">
+				<label for="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_week">按周查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_month" value="month">
+				<label for="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_month">按月查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_quarter" value="quarter">
+				<label for="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_quarter">按季度查询</label>
+				<input type="radio" name="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_type" id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_year" value="year">
+				<label for="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_year">按年查询</label>
+				
+				<br/>
+				
+				请选择日期范围:
+				从<input type="text" name="ammeter_diferent_floors_same_circuit_data_constrast_begin_time" id="ammeter_diferent_floors_same_circuit_data_constrast_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="ammeter_diferent_floors_same_circuit_data_constrast_end_time" id="ammeter_diferent_floors_same_circuit_data_constrast_end_time"  size="10" class="date_picker"/>
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_diferent_floors_same_circuit_data_constrast_btn">
+				<input type="button" value="填入分析内容" id="opener_3">
+					<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+
+			</form>
+			
+		</div>
+		<!--===============================================-->
+		<div id="tabs-4">
+			<form id="dataAnalysis_ammeter_whole_bulding_different_circuit_data_form">
+				请选择查询方式:
+				<input type="radio" name="dataAnalysis_ammete_whole_bulding_different_circuit_data_constrast_type" id="dataAnalysis_ammeter_whole_bulding_different_circuit_data_constrast_month" value="month">
+				<label for="dataAnalysis_ammeter_whole_bulding_different_circuit_data_constrast_month">按月查询</label>
+				<input type="radio" name="dataAnalysis_ammete_whole_bulding_different_circuit_data_constrast_type" id="dataAnalysis_ammeter_whole_bulding_different_circuit_data_constrast_week" value="week">
+				<label for="dataAnalysis_ammeter_whole_bulding_different_circuit_data_constrast_week">按季度查询</label>
+				<input type="radio" name="dataAnalysis_ammete_whole_bulding_different_circuit_data_constrast_type" id="dataAnalysis_ammeter_whole_bulding_different_circuit_data_constrast_year" value="year">
+				<label for="dataAnalysis_ammeter_whole_bulding_different_circuit_data_constrast_year">按年查询</label>
+				<br/>
+				<br/>
+				
+			请选择日期范围:
+				从<input type="text" name="ammeter_whole_bulding_different_circuit_data_constrast_begin_time" id="ammeter_whole_bulding_different_circuit_data_constrast_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="ammeter_whole_bulding_different_circuit_data_constrast_end_time" id="ammeter_whole_bulding_different_circuit_data_constrast_end_time"  size="10" class="date_picker"/>
+				&nbsp;&nbsp;&nbsp;
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_whole_bulding_different_circuit_data_btn">
+				<input type="button" value="填入分析内容" id="opener_4">
+					<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+			</form>
+		</div>
+		<!--===============================================-->
+		<div id="tabs-5">
+		
+			<form id="dataAnalysis_ammeter_whole_bulding_fee_data_form">
+				请选择日期范围:
+				从<input type="text" name="ammeter_whole_bulding_fee_data_begin_time" id="ammeter_whole_bulding_fee_data_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="ammeter_whole_bulding_fee_data_end_time" id="ammeter_whole_bulding_fee_data_end_time"  size="10" class="date_picker"/>
+				
+				&nbsp;&nbsp;&nbsp;
+				
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_whole_bulding_fee_data_btn">
+				<input type="button" value="填入分析内容" id="opener_5">
+					<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+			
+			</form>
+		</div>
+		
+	<!--===============================================-->
+		<div id="tabs-6" >
+		     <input type="radio" id="tabs6radio1"  name="tabs6radio" value="">
+				<label for="tabs6-1-lable">查看单个仪表详情</label>
+				
+				<input type="radio" id="tabs6radio2" name="tabs6radio" value="">
+				<label for="tabs6-2-lable">按月查询</label><br/>
+		<div id="tabs6-1" >  
+		 <form>
+	     选择仪表：<select name="dataAnalysis_ammeter_basic_data_look_number_select" id="dataAnalysis_ammeter_basic_data_look_number_select">
+					<option>--请选择仪表编号--</option>
+					<option value="20120001">20120001</option>
+					<option value="20120002">20120002</option>
+					<option value="20120003">20120003</option>
+					<option value="20120004">20120004</option>
+					<option value="20120005">20120005</option>
+					<option value="20120006">20120006</option>
+					<option value="20120007">20120007</option>
+					<option value="20120008">20120008</option>
+					<option value="20120009">20120009</option>
+					<option value="201200010">20120010</option>
+					<option value="201200011">20120011</option>
+					<option value="201200012">20120012</option>
+					<option value="201200013">20120013</option>
+					<option value="201200014">20120014</option>
+					<option value="201200015">20120015</option>
+					<option value="201200016">20120016</option>
+					<option value="201200017">20120017</option>
+					<option value="201200018">20120018</option>
+					<option value="201200019">20120019</option>
+					<option value="201200020">20120020</option>
+					<option value="201200021">20120021</option>
+				</select>
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_diferent_ammeter_number_btn">
+					<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+	     </form></div>
+	  
+	     <div id="tabs6-2"  >
+	     	    选择仪表：<select name="dataAnalysis_ammeter_basic_data_look_number_select1" id="dataAnalysis_ammeter_basic_data_look_number_select1">
+					<option>--请选择仪表编号--</option>
+					<option value="20120001">20120001</option>
+					<option value="20120002">20120002</option>
+					<option value="20120003">20120003</option>
+					<option value="20120004">20120004</option>
+					<option value="20120005">20120005</option>
+					<option value="20120006">20120006</option>
+					<option value="20120007">20120007</option>
+					<option value="20120008">20120008</option>
+					<option value="20120009">20120009</option>
+					<option value="201200010">20120010</option>
+					<option value="201200011">20120011</option>
+					<option value="201200012">20120012</option>
+					<option value="201200013">20120013</option>
+					<option value="201200014">20120014</option>
+					<option value="201200015">20120015</option>
+					<option value="201200016">20120016</option>
+					<option value="201200017">20120017</option>
+					<option value="201200018">20120018</option>
+					<option value="201200019">20120019</option>
+					<option value="201200020">20120020</option>
+					<option value="201200021">20120021</option>
+				</select>
+				<br/>
+				请选择年份:
+				<select name="dataAnalysis_ammeter_season_data_look_number_year1" id="dataAnalysis_ammeter_season_data_look_number_year_select1">
+					<option>--请选择年份--</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014">2014</option>
+					<option value="2015">2015</option>	
+					<option value="2016">2016</option>	
+					<option value="2017">2017</option>	
+					<option value="2018">2018</option>	
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+				</select>
+				
+				<input type="button" value="    查询     " id="dataAnalysis_ammeter_diferent_ammeter_number_btn1">
+				<input type="button" value="填入分析内容" id="opener_6">
+					<a href="rest/ammeterAnalysisService/analysisflooralltoexcel">导出Excel</a>
+	
+	     </div>
+	
+
+	    </div>
+	</div>
+	<!--===============================================-->
+	
+	
+		<div id="container" style="min-width: 400px; height: 420px; margin: 0 auto"></div>
+	<!--===============================================-->
+	<hr id="container_anylis_separator"/>
+	
+
+<!--===============================================-->
+
+	
+<div id="anylis_div" class="hide_at_fisrt">
+	
+
+		
+		<div id="ammeter_table" style="min-width: 600px; height: 500px; margin: 0 auto"></div>
+		<!--=================================-->
+		<!--===============分析框==================-->
+		<div id="dialog_anaysis" title="图表分析">
+				
+				<form id="anylis_content_form">
+					请输入分析内容:<br/>
+					<textarea rows="8" cols="35" id="anylis_content_text_area"></textarea>
+					<input type="button" id="anylis_content_form_submit_btn" value="提交">
+					<input type="reset" id="anylis_content_form_reset_btn" value="重置">
+				</form>
+		</div>
+
+	
+</div>
+
+
+</body>
+</html>

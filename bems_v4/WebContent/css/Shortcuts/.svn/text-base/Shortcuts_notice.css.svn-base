@@ -1,0 +1,42 @@
+body{
+	font-size:14px;
+}
+
+#shortcuts_notice_menu_div
+{
+	width:100%;
+	padding:20px 10px;
+	border-radius:4px;
+}
+
+
+#shortcuts_notice_menu_div ul li
+{
+	position:relative;
+	float:left;
+}
+
+
+#shortcuts_notice_menu_div ul li a
+{
+	border:0px;
+	border-radius:3px;
+	margin-right:0px;
+	
+} 
+
+#shortcuts_notice_menu_div ul li.ui-tabs-selected a 
+{
+	background: #ffffff; 
+	color:#4d4d4d;
+}
+
+select {
+	position:relative;
+	float:none;
+    padding:0px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width: 100px
+}

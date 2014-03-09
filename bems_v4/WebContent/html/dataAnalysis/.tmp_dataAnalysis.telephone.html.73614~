@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>电话数据分析</title>
+
+<link rel="stylesheet" href="css/dataAnalysis/dataAnalysis.telephone.css">
+
+
+</head>
+<body>
+<div id="dataAnalysis_telephone_meunu_bar_div">
+	
+	<ul>
+		<li><a href="#tabs-1">基本数据查看</a></li>
+		<li><a href="#tabs-2">对比查询</a></li>
+		<li><a href="#tabs-3">总量分析 </a></li>
+	</ul>
+	
+	<div id="tabs-1">
+		<form id="dataAnalysis_telephone_basic_data_look_form">
+		请选择电话权限:
+		<select name="dataAnalysis_telephone_basic_data_look_power" id="dataAnalysis_telephone_basic_data_look_power_select">
+			<option>--请选择电话权限--</option>
+			<option value="word">国际长途</option>
+			<option value="contry">国内长途</option>
+			<option value="city">市话</option>
+			<option value="inner">内线</option>		
+		</select>
+		
+		<br/>
+		
+		请选择时间:
+		<select name="dataAnalysis_telephone_basic_data_look_year" id="dataAnalysis_telephone_basic_data_look_year_select">
+			<option>--请选择年份--</option>
+			<option value="2012">2012</option>
+			<option value="2013">2013</option>
+			<option value="2014">2014</option>
+			<option value="2015">2015</option>	
+			<option value="2016">2016</option>	
+			<option value="2017">2017</option>	
+			<option value="2018">2018</option>	
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+			<option value="2021">2021</option>
+			<option value="2022">2022</option>
+		</select>
+		年
+		<select name="dataAnalysis_telephone_basic_data_look_month" id="dataAnalysis_telephone_basic_data_look_month_select">
+			<option>--请选择月份--</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		月
+		&nbsp;&nbsp;&nbsp;
+		<input type="button" value="    查询     " id="dataAnalysis_telephone_basic_data_look_btn">
+		<input type="button" value="    填入分析内容     " id="opener_phone_1">
+		</form>
+	</div>
+	<!--===============================================-->
+	<div id="tabs-2">
+		<form id="dataAnalysis_telephone_constrast_data_look_form">
+			请选择时间:
+		<select name="dataAnalysis_telephone_constrast_data_look_year" id="dataAnalysis_telephone_constrast_data_look_year_select">
+			<option>--请选择年份--</option>
+			<option value="2012">2012</option>
+			<option value="2013">2013</option>
+			<option value="2014">2014</option>
+			<option value="2015">2015</option>	
+			<option value="2016">2016</option>	
+			<option value="2017">2017</option>	
+			<option value="2018">2018</option>	
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+			<option value="2021">2021</option>
+			<option value="2022">2022</option>
+		</select>
+		年
+		<select name="dataAnalysis_telephone_constrast_data_look_month" id="dataAnalysis_telephone_constrast_data_look_month_select">
+			<option>--请选择月份--</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		月
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" value="    查询     " id="dataAnalysis_telephone_constrast_data_look_btn">
+		<input type="button" value="    填入分析内容     " id="opener_phone_2">
+		</form>
+	</div>
+	<!--===============================================-->
+	<div id="tabs-3">
+		<form id="dataAnalysis_telephone_all_data_look_form">
+			请选择时间:
+		<select name="dataAnalysis_telephone_all_data_look_year" id="dataAnalysis_telephone_all_data_look_year_select">
+			<option>--请选择年份--</option>
+			<option value="2012">2012</option>
+			<option value="2013">2013</option>
+			<option value="2014">2014</option>
+			<option value="2015">2015</option>	
+			<option value="2016">2016</option>	
+			<option value="2017">2017</option>	
+			<option value="2018">2018</option>	
+			<option value="2019">2019</option>
+			<option value="2020">2020</option>
+			<option value="2021">2021</option>
+			<option value="2022">2022</option>
+		</select>
+		年
+		<select name="dataAnalysis_telephone_all_data_look_month" id="dataAnalysis_telephone_all_data_look_month_select">
+			<option>--请选择年份--</option>
+			<option value="01">01</option>
+			<option value="02">02</option>
+			<option value="03">03</option>
+			<option value="04">04</option>
+			<option value="05">05</option>
+			<option value="06">06</option>
+			<option value="07">07</option>
+			<option value="08">08</option>
+			<option value="09">09</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+		</select>
+		月
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="button" value="    查询     " id="dataAnalysis_telephone_all_data_look_btn">
+		<input type="button" value="    填入分析内容     " id="opener_phone_3">
+		</form>
+	</div>
+	
+</div>
+
+<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
+
+
+<!---------------------------------->
+<!---------------------------------->
+<!-------------数据分析---------------->
+<!---------------------------------->
+<!---------------------------------->
+
+<div id="anylis_div" class="hide_at_fisrt">
+	<hr id="container_anylis_separator"/>
+	<!--
+	<div id="anylis_table_and_content_warper_div" class="hide_at_fisrt">
+	-->
+		<!--=============表格====================-->
+		<div id="anylis_table_div" style="min-width: 300px; height: 400px; margin: 0 auto" >	
+		</div>
+		<!--===============分析框==================-->
+		
+		<div id="dialog_anaysis_phone">
+			<form id="anylis_content_form">
+				请输入分析内容:<br/>
+				<textarea rows="8" cols="35" id="anylis_content_text_area" name="content"></textarea>
+				<input type="button" id="anylis_content_form_submit_btn" value="提交">
+				<input type="reset" id="anylis_content_form_reset_btn" value="重置">
+			</form>
+		</div>
+		<!--
+	</div>
+	-->
+</div>
+
+<script type="text/javascript" src="js/dataAnalysis/dataAnalysis.telephone.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="301"
+   name=""
+   committed-date="2012-07-25T06:25:56.824284Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/highcharts"
+   last-author="tqc"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="highcharts-more.js"
+   text-time="2012-07-21T01:40:47.826171Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="933462ff8c0246f429986f112b89db9f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.392146Z"/>
+<entry
+   committed-rev="301"
+   name="highcharts.js"
+   text-time="2012-07-25T06:43:44.410109Z"
+   committed-date="2012-07-25T06:25:56.824284Z"
+   checksum="b945f0586d1fe78ac0e6b5bd337ac775"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-25T06:43:44.396108Z"/>
+<entry
+   name="adapters"
+   kind="dir"/>
+<entry
+   name="themes"
+   kind="dir"/>
+<entry
+   committed-rev="223"
+   name="highcharts.src.js"
+   text-time="2012-07-21T01:40:48.170190Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3e95f99faa1eae91c6e28c0126905446"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.536154Z"/>
+<entry
+   name="modules"
+   kind="dir"/>
+</wc-entries>

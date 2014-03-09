@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="bems" default="war" basedir="." >
+	<property name="build_project" value="newsPublisher_ant"/>
+	<property name="bems.home" value="E:/workForTQC/newsPublisher"/>
+	<property name="bems.src" value="${bems.home}/src"/>
+	<property name="bems.lib" value="${bems.home}/WebContent/WEB-INF/lib"/>
+	<property name="bems.jar" value="${bems.home}/WebContent/WEB-INF/lib"/>
+	<property name="bems.classes" value="${bems.home}/WEB-INF/classes"/>
+	<property name="tomcat.home" value="D:/apache-tomcat-7.0.26"/>
+	
+	<target name="init" depends="clean">
+		<path id="all">
+			<fileset dir="${bems.lib}">
+				<include name="**/*.jar"/>
+			</fileset>
+			<fileset dir="${tomcat.home}/lib">
+				<include name="*.jar"/>
+			</fileset>
+		</path>
+		<mkdir dir="${build_project}/classes"/>
+	</target>
+	
+	<target name="clean">
+		<delete dir="${build_project}"/>
+	</target>
+	
+	<target name="compile" depends="init">
+		<javac srcdir="${bems.src}" destdir="${build_project}/classes" target="1.6" includeantruntime="on">
+			<classpath refid="all"></classpath>
+		</javac>
+	</target>
+	
+	<target name="war" depends="compile">
+		<war destfile="${tomcat.home}/webapps/bems.war" webxml="${bems.home}/WebContent/WEB-INF/web.xml">
+			<fileset dir="${bems.home}" casesensitive="yes">
+				<include name="WEB-INF/**"/>
+				<exclude name="*.war"/>
+			</fileset>
+			<fileset dir="${bems.home}" includes="**/**"/>
+			<lib dir="${bems.home}/WebContent/WEB-INF/lib">
+				<include name="*.jar"/>
+			</lib>
+		</war>
+	</target>
+</project>

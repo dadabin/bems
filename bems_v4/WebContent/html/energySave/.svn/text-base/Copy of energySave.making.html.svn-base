@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="css/energySave/energySave.making.css">
+
+</head>
+<body>
+<fieldset>
+	<legend>制定节能减排计划</legend>
+	<form>
+		<table border="0">
+			<tr>
+				<td style="text-align:right;">计划名字:</td>
+				<td style="text-align:left;"><input type="text" name="plan_name" size="30"></td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">计划起始时间:</td>
+				<td style="text-align:left;">
+				从<input type="text" name="water_constrast_begin_time" id="water_constrast_begin_time" size="10" class="date_picker"/>
+				到<input type="text" name="water_constrast_end_time" id="water_constrast_end_time"  size="10" class="date_picker"/>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">计划涉及楼层:</td>
+				<td style="text-align:left;">
+					<input type="checkbox" name="floors" value="1" id="floors_1"><label for="floors_1">一楼</label>
+					<input type="checkbox" name="floors" value="2" id="floors_2"><label for="floors_2">二楼</label>
+					<input type="checkbox" name="floors" value="3" id="floors_3"><label for="floors_3">三楼</label>
+					<input type="checkbox" name="floors" value="4" id="floors_4"><label for="floors_4">四楼</label>
+					<input type="checkbox" name="floors" value="6" id="floors_5"><label for="floors_5">五楼</label>
+					<input type="checkbox" name="floors" value="7" id="floors_6"><label for="floors_6">六楼</label>
+					<input type="checkbox" name="floors" value="5" id="floors_0"><label for="floors_0">地下室</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">计划参考分析报告:</td>
+				<td style="text-align:left;">
+				<select name="plan" id="plan_select">
+					<option>--请选择分析报告--</option>
+					<option value="20000001">2010年1楼用水量分析</option>
+					<option value="20000002">2010年各楼用水量对比分析</option>
+					<option value="20000003">2010年1-2-4楼用电量分析</option>
+					<option value="20000004">2011年5楼用电量分析</option>	
+					<option value="20000005">2010年楼用水量个楼层分布分析</option>	
+					<option value="20000006">2009年3楼用用电量分布分析</option>	
+					<option value="20000007">2012年3楼电话费分布分析</option>	
+					<option value="20000008">2010年个月用水总量量走势分析</option>
+				</select>
+				</td>
+			</tr>
+			<!----------------------------------->
+			<tr>
+				<td colspan="2">
+					<div id="plan_material_div" class="hide_at_first">
+						<hr class="energySave_hr"/>
+						<table>
+							<tr>
+								<td style="text-align:right;">分析图表:</td>
+								<td style="text-align:left;"><img src="images/chart.png"></td>
+							</tr>
+							<tr>
+								<td style="text-align:right;">分析数据一览表:</td>
+								<td style="text-align:left;">
+									<table border="1" id="plan_material_table">
+									<thead>
+										<tr>
+											<th>电话号码</th> <th>费用</th> <th>责任人</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>13880734982</td>
+											<td>49.5</td>
+											<td>jason</td>
+										</tr>
+										<tr>
+											<td>13880734982</td>
+											<td>49.5</td>
+											<td>jason</td>
+										</tr>
+										<tr>
+											<td>13880734982</td>
+											<td>49.5</td>
+											<td>jason</td>
+										</tr>
+										<tr>
+											<td>13880734982</td>
+											<td>49.5</td>
+											<td>jason</td>
+										</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+								
+							<tr>
+								<td style="text-align:right;">分析内容:</td>
+								<td style="text-align:left;">
+									<textarea rows="13" cols="120" readonly="readonly">
+										本系统拟通过监控并采集整个楼宇的各种能耗信息（包括楼层信息、水表、电表、电话等信息），
+										根据读取到的基础数据做出各种科学分析，然后将系	统分析结果以图表、报表等形式呈现给总务人员，以便总务人员制作数据分
+										析报告，最后由中层管理者在数据分析报告以及数据图表等基础上做出环保
+										节能决策方案、计划等，并可由系统保存决策。当发生紧急事件时，系统能通过短信或者邮件进行周知到相关人员。
+									</textarea>
+								</td>
+								
+							</tr>
+						</table>
+						<input type="button" value="收起" id="collepse_btn">
+						<hr class="energySave_hr"/>
+						
+					</div>
+				</td>
+			</tr>
+			<!----------------------------------->
+			<tr>
+				<td style="text-align:right;">计划涉及仪表:</td>
+				<td style="text-align:left;">
+					<input type="checkbox" name="yi_biaos" value="1" id="yi_biao_1"><label for="yi_biao_1">设备电表</label>
+					<input type="checkbox" name="yi_biaos" value="2" id="yi_biao_2"><label for="yi_biao_2">空调电表</label>
+					<input type="checkbox" name="yi_biaos" value="3" id="yi_biao_3"><label for="yi_biao_3">照明电表</label>
+					<input type="checkbox" name="yi_biaos" value="4" id="yi_biao_4"><label for="yi_biao_4">水表</label>
+				</td>
+			</tr>
+			<tr>
+				<td style="text-align:right;">计划内容:</td>
+				<td style="text-align:left;">
+					<textarea rows="10" cols="71"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center;">
+							<input type="button" id="water_basic_data_submitBtn" value="提交">
+							<input type="reset"  value="重置">
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+</fieldset>
+
+
+<script type="text/javascript" src="js/energySave/energySave.making.js"></script>
+</body>
+</html>

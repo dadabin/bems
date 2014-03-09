@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet"
+	href="css/userManagement/userManagement.emergency.css">
+	<script type="text/javascript" src="js/template/jquery-jtemplates.js"></script>
+	<script src="js/userManagement/userManagement.emergency.js"></script>
+
+</head>
+<body>
+
+
+<div id="userManagement_emergency_table_div">
+		<ul>
+			<li><a href="#tabs-1">应急小组管理</a></li>
+			<li><a href="#tabs-2">添加应急小组</a></li>
+		</ul>
+			<!-- 应急小组列表 -->
+		<div id="tabs-1">
+		 <div id="user_list_manage_ermergency_div" class=data_div>
+		  
+			
+			<div id="user_manage_emergency_add_div" class="type_div">
+				<span id="table_head_span">系统应急小组</span>
+				
+				<table border="1" id="emergency_manage_look_table"
+					class="has_img_to_handle_table">
+					<tr class="handle_head_tr">
+						<td>序号</td>
+						<td>小组名称</td>
+						<td>管理小组成员</td>
+						<td>修改/查看</td>
+						<td>删除</td>
+					</tr>
+				</table>
+				</div>
+			
+		   </div>
+		   
+		   	<div id="user_manage_emergency_div" class="data_div">
+	
+			
+			
+			<!-- 应急小组列表 -->
+			<div id="user_manage_emergency_add_div" class="type_div">
+				<span id="table_head_span">系统应急小组</span>
+				
+				<table border="1" id="emergency_manage_look_table"
+					class="has_img_to_handle_table">
+					<tr class="handle_head_tr">
+						<td>序号</td>
+						<td>小组名称</td>
+						<td>管理小组成员</td>
+						<td>修改/查看</td>
+						<td>删除</td>
+					</tr>
+				</table>
+				
+				<input type="button" id="emergency_add_type" value="继续添加应急小组" />
+             
+			</div>
+			
+			<!-- 添加应急小组成员 -->
+			<div id="emergency_member_manage_add_div" class="type_div">
+
+                                         添加应急小组成员
+			</div>
+			
+			
+			
+<!-- 查看应急小组成员 -->
+			<div id="emergency_member_manage_look_div" class="type_div">
+				
+	
+				
+				
+			</div>
+	</div>
+		</div>
+		<!-- 添加应急小组 -->
+		<div id="tabs-2">
+				<form id="user_manage_emergency_add_form">
+					<table>
+						<tr>
+							<td style="text-align: right;">应急小组名:</td>
+							<td style="text-align: left;"><input name="emergency_name" id="emergency_name"
+								type="text" placeholder="请输入应急小组名"></td>
+						</tr>
+
+						<tr>
+							<td style="vertical-align: top; text-align: right;">应急小组名描述:</td>
+							<td><textarea name="emergency_description"
+									id="emergency_description" cols="30" rows="6">
+								</textarea></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center;"><input
+								type="button" id="water_basic_data_submitBtn" value="提交">
+								<input type="reset" value="重置">
+								<input type="button" id="black_btn" value="返回">
+								</td>
+						</tr>
+					</table>
+				</form>
+		</div>
+		
+		
+		
+		
+</div>
+
+
+	  
+
+
+
+
+</body>
+</html>

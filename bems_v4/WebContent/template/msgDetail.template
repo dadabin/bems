@@ -1,0 +1,43 @@
+<!-- 模板内容 -->
+<table width="100%" border="1" align="center">
+
+  <tr align="center">
+    <td colspan="2" bgcolor="6795B4">消息详情</td>
+  </tr>
+  
+  <tr align="center">
+    <td width="38%">标题：</td>
+    <td width="62%">{$T.inform.tittle}</td>
+  </tr>
+  <tr align="center">
+    <td>发送人：</td>
+    <td>{$T.inform.informPerson}</td>
+  </tr>
+  <tr align="center">
+    <td>接收人：</td>
+    <td>{$T.inform.acceptPerson}</td>
+  </tr>
+  <tr align="center">
+    <td>内容：</td>
+    <td align="left" valign="top">
+    <p>{$T.inform.content}</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p></td>
+  </tr>
+  <tr align="center">
+    <td>发送时间：</td>
+    <td>{$T.inform.sendTime}</td>
+  </tr>
+  <tr align="center">
+    <td colspan="2" bgcolor="6795B4">回复相关</td>
+  </tr>
+  <tr align="center">
+    <td>回复时间：</td>
+    <td>{$T.inform.peplayTime}</td>
+  </tr>
+  <tr align="center">
+    <td>回复内容：</td>
+    <td>{$T.inform.peplay}</td>
+  </tr>
+  
+</table>

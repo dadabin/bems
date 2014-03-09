@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/userManagement/urlManagement.css">
+<script src="js/userManagement/urlmanagement.js"></script>
+</head>
+<body>
+<div id="url_table_div">
+		<ul>
+			<li><a href="#tabs-1">角色权限分配</a></li>
+			<li><a href="#tabs-2">权限列表</a></li>
+		</ul>
+		<div id="tabs-1">
+
+	<div class="data_div" id="url_role_management_div">
+		
+			<div id="role_list_div">
+				<table border="1">
+				<tr><td>序号</td><td>角色</td><td>权限分配</td></tr>
+				<tr><td>1</td><td>系统管理员</td><td><a href="#" id="system_administrator_a" >权限分配</a></td></tr>
+				<tr><td>2</td><td>中层管理者</td><td><a href="#" id="middle_level_management_system_a" >权限分配</a></td></tr>
+				<tr><td>3</td><td>总务人员</td><td><a href="#" id="general_staff_a" >权限分配</a></td></tr>
+				</table>
+			</div>
+	
+	</div>
+	<div id="role_url_div">
+	 <fieldset>
+	     <legend>菜单列表</legend>
+	     <div>
+	     <input type="hidden" id="role_url_hidden" value="role" name="role"/>
+	       <table border="1">
+	       <tr><td>主菜单</td><td>子菜单</td></tr>
+	       <tr><td><input type="checkbox" class="class1_parentid" id="class1_check" value="dataCollection"/>数据采集</td><td>
+	       <input type="checkbox" class="class1" value="html/dataCollection/dataCollection.water.html"/>水表数据采集
+	       <input type="checkbox" class="class1" value="html/dataCollection/dataCollection.ammeter.html"/>电表数据采集
+	       <input type="checkbox" class="class1" value="html/dataCollection/dataCollection.telephone.html"/>数据分析
+	       </td></tr>
+	       <tr><td><input type="checkbox" id="class2_check" class="class2_parentid" value="dataAnalysis"/>数据分析</td><td>
+	       <input type="checkbox" class="class2" value="html/dataAnalysis/dataAnalysis.water.html"/>水表相关
+	       <input type="checkbox" class="class2" value="html/dataAnalysis/dataAnalysis.ammeter.html"/>电表相关
+	       <input type="checkbox" class="class2" value="html/dataAnalysis/dataAnalysis.telephone.html"/>基本数据下载
+	       <input type="checkbox" class="class2" value="html/dataAnalysis/dataAnalysis.download.html"/>基本数据下载
+	       
+	       </td></tr>
+	       <tr><td>
+	        <input type="checkbox" class="class3_parentid" id="class3_check" value="userManagement"/>用户管理
+	       </td><td>
+	       <input type="checkbox" class="class3" value="html/userManagement/userManagement.emergency.html"/>应急小组管理
+	       <input type="checkbox" class="class3" value="html/userManagement/userManagement.add.html"/>添加人员
+	       <input type="checkbox" class="class3"  value="html/userManagement/userManagement.look.html"/>查看系统用户
+	       <input type="checkbox" class="class3"  value="html/userManagement/urlManagement.html"/>权限分配
+	       </td></tr>
+	       <tr><td>
+	       <input type="checkbox" class="class4_parentid" id="class4_check" value="energySave"/>节能计划
+	       </td><td>
+	       <input type="checkbox" class="class4" value="html/energySave/energySave.making.html"/>制定节能减排计划
+	       <input type="checkbox" class="class4" value="html/energySave/energySave.look.html"/>查看节能计划
+	       </td></tr>
+	       <tr><td>
+	       <input type="checkbox" class="class5_parentid" id="class5_check" value="basicDataManagement"/>信息维护
+	       </td><td>
+	       <input type="checkbox" class="class5" value="html/basicDataManagement/basicDataManagement.water.html"/>水表相关
+	       <input type="checkbox" class="class5" value="html/basicDataManagement/basicDataManagement.ammeter.html"/>电表相关
+	       <input type="checkbox" class="class5" value="html/basicDataManagement/basicDataManagement.telephone.html"/>电话相关
+	       <input type="checkbox" class="class5" value="html/basicDataManagement/basicDataManagement.floor.html"/>楼层相关
+	       <input type="checkbox" class="class5" value="html/basicDataManagement/basicDataManagement.zu_tai.html"/>组态布局
+	       <input type="checkbox" class="class5" value="查看布局"  />查看布局
+	       
+	       </td></tr>
+	       <tr><td><input type="button" id="role_url_button" value="提交"/></td><td></td></tr>
+	       </table>
+	     </div>
+	   
+	   </fieldset>
+	</div>
+</div>
+<div id="tabs-2">
+权限列表
+
+
+
+
+</div>
+
+		
+</div>
+
+
+
+</body>
+</html>

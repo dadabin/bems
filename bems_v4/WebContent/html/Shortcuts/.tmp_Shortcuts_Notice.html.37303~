@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="css/Shortcuts/Shortcuts_notice.css">
+
+</head>
+<body>
+<div id="shortcuts_notice_menu_div">
+	
+	<ul>
+		<li><a href="html/Shortcuts/Shortcuts_Notice/sendMsg.html">发送消息</a></li>
+		<li><a href="html/Shortcuts/Shortcuts_Notice/listAcceptMsg.html" >收件信息查看</a></li>
+		<li><a href="html/Shortcuts/Shortcuts_Notice/listSendMsg.html" >发送消息查看</a></li>
+		<li><a href="html/Shortcuts/Shortcuts_Notice/listAll.html" >消息信息列表</a></li>
+	</ul>
+	
+	<!---
+	<ul>
+		<li><a href="#tabs-1">发送消息</a></li>
+		<li><a href="#tabs-2">收件信息查看</a></li>
+	</ul>
+	
+	<div id="tabs-1">	</div>
+	<div id="tabs-2">	</div>
+	-->
+
+<script type="text/javascript" src="js/Shortcuts/Shortcuts_Notice.js"></script>
+</div>
+</body>
+</html>

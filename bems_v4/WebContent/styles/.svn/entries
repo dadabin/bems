@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="346"
+   name=""
+   committed-date="2012-08-17T01:57:43.145074Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/styles"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="jquery.fancybox-1.3.4.css"
+   text-time="2012-07-21T01:40:33.561355Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8e37e2d555ad351664cea019ad8fcd7b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.519352Z"/>
+<entry
+   committed-rev="223"
+   name="login.css"
+   text-time="2012-07-21T01:40:33.568355Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="9106c4183033b573a577784fa2912be6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.524353Z"/>
+<entry
+   committed-rev="223"
+   name="fullcalendar.css"
+   text-time="2012-07-21T01:40:33.603357Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="9b70a69710458fb8c3dc13dafeef85bb"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.535353Z"/>
+<entry
+   committed-rev="223"
+   name="wysiwyg.css"
+   text-time="2012-07-21T01:40:33.836371Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="1eea12541b7dd9f4b54dfac22010a2aa"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:33.547354Z"/>
+<entry
+   committed-rev="346"
+   name="main.css"
+   text-time="2012-08-17T02:39:59.728158Z"
+   committed-date="2012-08-17T01:57:43.145074Z"
+   checksum="69e20dd7caa3b0e40750d443a4aa146c"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-08-17T02:39:59.716157Z"/>
+</wc-entries>

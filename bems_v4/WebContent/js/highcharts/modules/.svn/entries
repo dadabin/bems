@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js/highcharts/modules"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="exporting.src.js"
+   text-time="2012-07-21T01:40:47.773168Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="15ec6f1a30febed6db74994535e03a60"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.723165Z"/>
+<entry
+   committed-rev="223"
+   name="canvas-tools.js"
+   text-time="2012-07-21T01:40:47.781168Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7ea345ba3da114fbb2b59746bd11f907"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.737166Z"/>
+<entry
+   committed-rev="223"
+   name="canvas-tools.src.js"
+   text-time="2012-07-21T01:40:47.791169Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="79500d716652c20149427c99ff48464b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.757167Z"/>
+<entry
+   committed-rev="223"
+   name="exporting.js"
+   text-time="2012-07-21T01:40:47.799169Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e47e716ddb12ba43cfcbe4321a9d28b6"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:47.764167Z"/>
+</wc-entries>

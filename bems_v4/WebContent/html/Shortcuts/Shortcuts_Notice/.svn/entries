@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="344"
+   name=""
+   committed-date="2012-08-16T16:26:03.459470Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/html/Shortcuts/Shortcuts_Notice"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="344"
+   name="listSendMsg.html"
+   text-time="2012-08-16T15:46:29.488300Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="db2dac6de778979a3d8e3deffc2da8bf"
+   last-author="lpm"
+   kind="file"/>
+<entry
+   committed-rev="344"
+   name="sendMsg.html"
+   text-time="2012-08-16T16:22:15.743059Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="3cef34cd015547eb1b3f737bdea34489"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-26T12:49:49.637801Z"/>
+<entry
+   committed-rev="344"
+   name="listAcceptMsg.html"
+   text-time="2012-08-16T15:29:48.638055Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="70b1159acc5a975f3e7f28a1f184d238"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-23T10:30:08.635938Z"/>
+<entry
+   committed-rev="344"
+   name="listAll.html"
+   text-time="2012-08-16T15:49:48.857704Z"
+   committed-date="2012-08-16T16:26:03.459470Z"
+   checksum="2b46c11de991baab29ce455fb632f17b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-23T10:30:08.651938Z"/>
+</wc-entries>

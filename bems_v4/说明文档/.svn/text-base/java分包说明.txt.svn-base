@@ -1,0 +1,12 @@
+cn.cdu.edu.TQC.bems-------项目工具
+cn.cdu.edu.TQC.bems.action------servlet类
+cn.cdu.edu.TQC.bems.db-----数据库操作
+cn.cdu.edu.TQC.bems.bean-------实体类
+cn.cdu.edu.TQC.bems.dao-------持久层抽象
+cn.cdu.edu.TQC.bems.dao.impl------持久层实体
+cn.cdu.edu.TQC.bems.filter---------过滤器（过滤url以及字符）
+cn.cdu.edu.TQC.bems.listener-------监听器（系统日志）
+cn.cdu.edu.TQC.bems.service--------开放服务（resetful）
+cn.cdu.edu.TQC.bems.test----------测试（单元测试）
+log4j.properties----------（日志配置文件）
+

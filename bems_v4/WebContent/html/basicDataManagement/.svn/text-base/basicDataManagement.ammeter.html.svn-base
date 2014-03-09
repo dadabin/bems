@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link rel="stylesheet" href="css/basicDataManagement/basicDataManagement.ammeter.css">
+
+
+</head>
+<body>
+	
+	<div class="basicDataDiv" id="ameter_basic_div">
+	<form id="ameter_basic_form">
+		<fieldset>
+			<legend>电表基本数据维护</legend>
+			<table border="1">
+				<thead>
+					<tr>
+						<th>编号</th> <th>电表编号</th> <th>电表类别</th> <th>电表地理位置</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td><input type="text" name="ameter_number1"></td>
+						<td>
+							<select name="ameter_type1">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location1">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>2</td>
+						<td><input type="text" name="ameter_number1"></td>
+						<td>
+							<select name="ameter_type2">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location2">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>3</td>
+						<td><input type="text" name="ameter_number3"></td>
+						<td>
+							<select name="ameter_type3">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location3">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>4</td>
+						<td><input type="text" name="ameter_number4"></td>
+						<td>
+							<select name="ameter_type4">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location4">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>5</td>
+						<td><input type="text" name="ameter_number5"></td>
+						<td>
+							<select name="ameter_type5">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location5">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>6</td>
+						<td><input type="text" name="ameter_number6"></td>
+						<td>
+							<select name="ameter_type6">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location6">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>7</td>
+						<td><input type="text" name="ameter_number7"></td>
+						<td>
+							<select name="ameter_type7">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location7">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>8</td>
+						<td><input type="text" name="ameter_number8"></td>
+						<td>
+							<select name="ameter_type8">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location8">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>9</td>
+						<td><input type="text" name="ameter_number9"></td>
+						<td>
+							<select name="ameter_type9">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location9">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>10</td>
+						<td><input type="text" name="ameter_number10"></td>
+						<td>
+							<select name="ameter_type10">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location10">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<!--==============================================-->
+					
+					<tr>
+						<td>11</td>
+						<td><input type="text" name="ameter_number11"></td>
+						<td>
+							<select name="ameter_type11">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location11">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>12</td>
+						<td><input type="text" name="ameter_number12"></td>
+						<td>
+							<select name="ameter_type12">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location12">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>13</td>
+						<td><input type="text" name="ameter_number13"></td>
+						<td>
+							<select name="ameter_type13">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location13">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>14</td>
+						<td><input type="text" name="ameter_number14"></td>
+						<td>
+							<select name="ameter_type14">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location14">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>15</td>
+						<td><input type="text" name="ameter_number15"></td>
+						<td>
+							<select name="ameter_type15">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location15">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>16</td>
+						<td><input type="text" name="ameter_number16"></td>
+						<td>
+							<select name="ameter_type16">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location16">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>17</td>
+						<td><input type="text" name="ameter_number17"></td>
+						<td>
+							<select name="ameter_type17">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location17">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>18</td>
+						<td><input type="text" name="ameter_number18"></td>
+						<td>
+							<select name="ameter_type18">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location18">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>19</td>
+						<td><input type="text" name="ameter_number19"></td>
+						<td>
+							<select name="ameter_type19">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location19">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td>20</td>
+						<td><input type="text" name="ameter_number20"></td>
+						<td>
+							<select name="ameter_type20">
+								<option>--请选择电表类别--</option>
+								<option value="she">设备电路</option>
+								<option value="kong">空调电路</option>
+								<option value="zhao">照明电路</option>
+							</select>
+						</td>
+						<td>
+							<select name="location20">
+								<option>--请选择电表地理位置--</option>
+								<option value="1">1楼</option>
+								<option value="2">2楼</option>
+								<option value="3">3楼</option>
+								<option value="4">4楼</option>
+								<option value="5">5楼</option>
+								<option value="6">6楼</option>
+								<option value="7">地下室</option>
+								<option value="8">楼外</option>
+							</select>
+						</td>
+					</tr>
+					<!--==============================================-->
+					<tr>
+						<td colspan="4" style="text-align:center;">
+							<input type="button" id="ameter_basic_data_submitBtn" value="提交">
+							<input type="reset"  value="重置">
+						</td>
+					</tr>
+					<!--==============================================-->
+				</tbody>
+			</table>
+		</fieldset>
+	</form>
+	
+</div>
+
+<script src="js/basicDataManagement/basicDataManagement.ammeter.js"></script>
+	
+</body>
+</html>

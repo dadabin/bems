@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/simulation/cn/cdu/edu/TQC/simulation/io"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="FixStringIO.java"
+   text-time="2012-07-21T01:40:28.863086Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="0a7b35b3cbd1839d01c79bb806573ece"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.855086Z"/>
+</wc-entries>

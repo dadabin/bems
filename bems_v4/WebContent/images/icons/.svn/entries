@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/images/icons"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="icon_edit.png"
+   text-time="2012-07-21T01:40:37.636588Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="d409b37fae4feba634f7ec3d5091df7a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.524582Z"/>
+<entry
+   committed-rev="223"
+   name="icon_error.png"
+   text-time="2012-07-21T01:40:37.642588Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="edb95dd50f5378185361cafaf4cadfa2"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.528582Z"/>
+<entry
+   committed-rev="223"
+   name="icon_cross.png"
+   text-time="2012-07-21T01:40:37.673590Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="11f77f434cad3918033d481ce6932a75"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.533582Z"/>
+<entry
+   committed-rev="223"
+   name="icon_arrow.png"
+   text-time="2012-07-21T01:40:37.696591Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="4a8ee6da253854816a72990cf7147fe4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.538582Z"/>
+<entry
+   committed-rev="223"
+   name="icon_tick.png"
+   text-time="2012-07-21T01:40:37.711592Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8fc651006803c10921c205c4f7758d92"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.542583Z"/>
+<entry
+   committed-rev="223"
+   name="icon_info.png"
+   text-time="2012-07-21T01:40:37.720593Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e3d712fa60945da1801ef8b45518e4cf"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.546583Z"/>
+<entry
+   committed-rev="223"
+   name="icon_unlock.png"
+   text-time="2012-07-21T01:40:37.729593Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3314ab2946b5b8d97063c5157500ed83"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.551583Z"/>
+<entry
+   committed-rev="223"
+   name="icon_tick_sq.png"
+   text-time="2012-07-21T01:40:38.150617Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="4bcd71fa1df09e40d04097314c849422"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.555583Z"/>
+<entry
+   committed-rev="223"
+   name="icon_locked.png"
+   text-time="2012-07-21T01:40:38.166618Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="56530740919c8726efe80f08fd98ed68"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.560584Z"/>
+<entry
+   committed-rev="223"
+   name="icon_delete.png"
+   text-time="2012-07-21T01:40:38.182619Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="6d61a985f4b64f05300b12082ca4f76f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.564584Z"/>
+<entry
+   committed-rev="223"
+   name="icon_warning.png"
+   text-time="2012-07-21T01:40:38.193620Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="ea49580f91f8e0ae1df0a0fd24a94ac7"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.569584Z"/>
+<entry
+   committed-rev="223"
+   name="icon_lrg_comment.png"
+   text-time="2012-07-21T01:40:38.202620Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c4e718859f628bc7e1ec4a4b726b0fbe"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.574584Z"/>
+<entry
+   committed-rev="223"
+   name="icon_lrg_create.png"
+   text-time="2012-07-21T01:40:38.211621Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="49026e3177dee3be0e766176ae995ddd"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.578585Z"/>
+<entry
+   committed-rev="223"
+   name="icon_cog.png"
+   text-time="2012-07-21T01:40:38.220621Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="da6155046186c82f99fcad37c13efe68"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.582585Z"/>
+<entry
+   committed-rev="223"
+   name="icon_close_sq.png"
+   text-time="2012-07-21T01:40:38.226622Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7d8f92bd541222dccf0db49306d36f22"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.587585Z"/>
+<entry
+   committed-rev="223"
+   name="icon_success.png"
+   text-time="2012-07-21T01:40:38.233622Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="f611fbc6a1a344cd14337e65dc95d110"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.592585Z"/>
+<entry
+   committed-rev="223"
+   name="icon_approve.png"
+   text-time="2012-07-21T01:40:38.253623Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="8fc651006803c10921c205c4f7758d92"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.597586Z"/>
+<entry
+   committed-rev="223"
+   name="icon_lrg_calendar.png"
+   text-time="2012-07-21T01:40:38.269624Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7e802ab277f3d7e6c5a4d434211e3b38"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.601586Z"/>
+<entry
+   committed-rev="223"
+   name="icon_unapprove.png"
+   text-time="2012-07-21T01:40:38.276625Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="ab3ce41503be7baeeba13bfe954f2314"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.606586Z"/>
+<entry
+   committed-rev="223"
+   name="icon_username.png"
+   text-time="2012-07-21T01:40:38.282625Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="36a8240451393b1c2f7b97059cd642e5"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.610586Z"/>
+<entry
+   committed-rev="223"
+   name="icon_lrg_support.png"
+   text-time="2012-07-21T01:40:38.289625Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="1acf2041972b57f751e5b9aee6cdf8fa"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.615587Z"/>
+<entry
+   committed-rev="223"
+   name="icon_lrg_user.png"
+   text-time="2012-07-21T01:40:38.295626Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="9e60b80e4e3bfc4420ef9f64c68920ae"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.620587Z"/>
+<entry
+   committed-rev="223"
+   name="icon_mail.png"
+   text-time="2012-07-21T01:40:38.302626Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="60cc62d5d5e14806c941be64d9028ed9"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.624587Z"/>
+<entry
+   committed-rev="223"
+   name="icon_lrg_media.png"
+   text-time="2012-07-21T01:40:38.309626Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="27651211f57a781199ed0255d8429d8d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:37.629588Z"/>
+</wc-entries>

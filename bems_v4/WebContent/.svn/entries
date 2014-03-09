@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="361"
+   name=""
+   committed-date="2012-08-18T15:28:50.498375Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="META-INF"
+   kind="dir"/>
+<entry
+   name="reportImages"
+   kind="dir"/>
+<entry
+   name="styles"
+   kind="dir"/>
+<entry
+   name="html"
+   kind="dir"/>
+<entry
+   name="upload"
+   kind="dir"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="themes"
+   kind="dir"/>
+<entry
+   name="WEB-INF"
+   kind="dir"/>
+<entry
+   name="download"
+   kind="dir"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="328"
+   name="login.html"
+   text-time="2012-07-26T08:07:15.970107Z"
+   committed-date="2012-07-29T03:08:52.175527Z"
+   checksum="a0815271ebe9118ae9e898ceb90e7b2f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:46.921119Z"/>
+<entry
+   name="template"
+   kind="dir"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   committed-rev="223"
+   name="build.xml"
+   text-time="2012-07-21T01:40:49.641275Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="162c2d6d801841cce3a501ba0bbc3f6d"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.627274Z"/>
+</wc-entries>

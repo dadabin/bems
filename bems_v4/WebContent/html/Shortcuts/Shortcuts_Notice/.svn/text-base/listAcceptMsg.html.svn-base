@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>发送信息列表</title>
+        <script src="./js/jquery/jquery-1.7.2.js" type="text/javascript">
+        </script>
+        <script src="./js/jquery/jquery.ui.js" type="text/javascript">
+        </script>
+        <script type="text/javascript" src="js/template/jquery-jtemplates.js">
+        </script>
+        <script type="text/javascript">
+            
+            var msgsID;
+            
+            $(document).ready(function(){
+            
+                (function($){
+                    $.getRootPath = function(){
+                        var strFullPath = window.document.location.href;
+                        var strPath = window.document.location.pathname;
+                        var pos = strFullPath.indexOf(strPath);
+                        var prePath = strFullPath.substring(0, pos);
+                        var postPath = strPath.substring(0, strPath.substr(1).indexOf('/') + 1);
+                        //alert(prePath+postPath);
+                        return (prePath + postPath);
+                    };
+                })(jQuery);
+                
+                var url = $.getRootPath() + "/rest/informService/listAccept";
+                $.ajax({
+                    type: "GET",
+                    dataType: "json",
+                    url: url,
+                    success: function(msg){
+                        var myobj = eval(msg);
+                        showTable(myobj);
+                        handleMsg();
+                    },
+                    Error: function(msg){
+                        alert("数据获取失败！");
+                    }
+                    
+                });
+                
+                
+                
+                function showTable(mdatas){
+                
+                    //设置debug模式
+                    $.jTemplatesDebugMode(true);
+                    // 附上模板
+                    $("#msgTable_a").setTemplateURL("template/acceptMsg.template");
+                    // 给模板加载数据
+                    $("#msgTable_a").processTemplate(mdatas);
+                }
+                
+                //=============消息处理
+                
+                function handleMsg(){
+                
+                    $("#delet").click(function(){
+                    
+                        //删除操作
+                        //1】都弹出确认窗口
+                        $("#list_accept_msg_delet").dialog({
+                            height: 150,
+                            width: 250,
+                            autoOpen: false,
+                            show: "blind",
+                            hide: "explode",
+                            modal: true,
+                            buttons: {
+                                "确认": function(){
+                                    deleteMsg();
+                                    
+                                    $(this).dialog("close");
+                                },
+                                Cancel: function(){
+                                    $(this).dialog("close");
+                                }
+                            },
+                            close: function(){
+                                //清空操作
+                            }
+                            
+                        });
+                        
+                        
+                        function deleteMsg(){
+                            var url = $.getRootPath() + "/rest/informService/deletRecord?recordID=" + msgsID;
+                            $.ajax({
+                                type: "GET",
+                                dataType: "xml",
+                                url: url,
+                                success: function(msg){
+                                    alert(msg.find("result").text());
+                                },
+                                Error: function(msg){
+                                    alert("数据获取失败！");
+                                }
+                                
+                            });
+                        }
+                        document.getElementById('list_accept_msg_delet_dialog').style.display = "";
+                        $("#list_accept_msg_delet").dialog("open");
+                        
+                    });
+//========================================================//                    
+                    
+                    //查看详情
+                    $("#detail").click(function(){
+                        //1】获取数据
+					   function showTable(mdata){
+                            //设置debug模式
+                            $.jTemplatesDebugMode(true);
+                            // 附上模板
+                            $("#list_accept_msg_detail_table").setTemplateURL("template/msgDetail.template");
+                            // 给模板加载数据
+                            $("#list_accept_msg_detail_table").processTemplate(mdata);
+                        }	
+						
+                       function show_T(){
+					   	 var url = $.getRootPath() + "/rest/informService/showRecord?recordID=" + msgsID;
+                        	$.ajax({
+                            type: "GET",
+                            dataType: "json",
+                            url: url,
+                            success: function(msg){
+								//2】数据填充到页面
+                                var myobj = eval(msg);
+                                //插入数据到页面的表格
+                                showTable(myobj);
+                            },
+                            Error: function(msg){
+                                alert("数据获取失败！");
+                            }   
+                        });
+						
+					   }
+
+						//3】弹出框显示
+						 $("#list_accept_msg_detail").dialog({
+                            height: 500,
+                            width: 480,
+                            autoOpen: false,
+                            show: "blind",
+                            hide: "explode",
+                            modal: true,
+                            buttons: {
+                                "确认": function(){
+                                    $(this).dialog("close");
+                                },
+                                Cancel: function(){
+                                    $(this).dialog("close");
+                                }
+                            },
+                            close: function(){
+                                //清空操作
+								$("#list_accept_msg_detail_table").html("");
+                            }
+                            
+                        });
+		
+						//再显示消息框
+						show_T();
+						 $("#list_accept_msg_detail").dialog("open");
+                        
+                    });
+                }
+                
+                
+            });
+            
+            ////chooseOne(),智能选中一个box 
+            function chooseOne(cb){
+                //先取得同name的chekcBox的集合物件   
+                var obj = document.getElementsByName("msg_box");
+                for (i = 0; i < obj.length; i++) {
+                    //判斷obj集合中的i元素是否為cb，若否則表示未被點選   
+                    if (obj[i] != cb) 
+                        obj[i].checked = false;
+                    //若是 但原先未被勾選 則變成勾選；反之 則變為未勾選   
+                    //else  obj[i].checked = cb.checked;   
+                    //若要至少勾選一個的話，則把上面那行else拿掉，換用下面那行   
+                    else {
+                        obj[i].checked = true;
+                        msgsID = obj[i].value;
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="msgTable_a">
+        </div>
+		
+        <div id="list_accept_msg_detail">
+        	<div id="list_accept_msg_detail_table">
+        	</div>
+        </div>
+        <div id="list_accept_msg_delet">
+            <div id="list_accept_msg_delet_dialog" style="display: none">
+                您确认删除此则消息记录？
+            </div>
+        </div>
+    </body>
+</html>

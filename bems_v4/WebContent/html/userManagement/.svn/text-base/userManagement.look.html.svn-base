@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/userManagement/userManagement.look.css">
+
+
+</head>
+<body>
+	
+	<div id="user_manage_look_all_div" class="data_div">
+		<fieldset>
+			<legend>查看所有人员信息</legend>
+			<table border="1" class="user_manage_look_table" id="user_manage_look_table">
+				<tr class="handle_head_tr"><td>序号</td><td>姓名</td><td>角色</td><td>电话号码</td><td>EMAIL</td><td>头像</td><td>修改</td><td>删除</td></tr>
+			</table>
+		</fieldset>
+	</div>
+	
+	<!--==============修改用户的div============-->
+	<div id="user_manage_update_div" class="hide_at_first">
+		<fieldset>
+			<legend>修改用户</legend>
+		    <form id="user_manage_update_form"  >
+			<table border="0" id="user_manage_add_table">
+				<tr>
+					<td style="text-align:right;">姓名:</td>
+					<td><input type="hidden" name="user_update_id" id="user_update_id"/>
+					<input name="user_update_name" id="user_update_name" value=""/></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">密码:</td>
+					<td ><input name="user_update_password" id="user_update_password"value=""> </td>
+				</tr>
+				 <tr>
+					<td style="text-align:right;">电话号码:</td>
+					<td><input name="user_update_tel" id="user_update_tel"  value=""/></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">邮箱地址:</td>
+					<td><input name="user_update_email" id="user_update_email" value=""/></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">用户角色:</td>
+					<td>
+						<select name="user_update_role" id="user_update_role" style="min-width:120px;">
+							<option value="0">--请选择用户角色--</option>
+							<option value="1" >总务人员</option>
+							<option value="2">中层管理者</option>
+							<option value="3">应急小组成员</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right; ">头像:</td>
+					<td>
+						<img  id ="user_update_pic"style="width:100px; height:100px;" src="images/pic/1.jpg">
+						<input type="button" id="user_manage_change_pic_btn" value="更改头像">
+					</td>
+				</tr>
+				<tr id="user_manage_change_pic_td" style="display:none;">
+					<td><input type="hidden" id="user_update_old_pic" name="user_update_old_pic"/></td>
+					<td colspan="1" align="center" style="height:80px;background-color:#ffffff;width:250px;">
+							请选择要上传的头像图片文件：
+							<input type="file" name="user_manage_change_pic" />
+					</td>
+				</tr>	
+				<tr>
+					<td colspan="2" align="center">
+						<input type="button" id="user_manage_update_submitBtn" value="提交">
+						<input type="reset"  value="重置">
+					</td>
+				</tr>
+			</table>
+			</form>
+		</fieldset>
+	</div>
+	
+	<script src="js/userManagement/userManagement.look.js"></script>
+	
+</body>
+</html>

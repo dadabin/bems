@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>通讯录</title>
+<script type="text/javascript" src="./js/template/jquery-jtemplates.js"></script>
+<script type="text/javascript" src="./js/Shortcuts/Shortcuts_Contact.js"></script>
+
+</head>
+<body>
+	
+<div id="shortcuts_contact_table_div">
+</div>	
+
+</body>
+</html>

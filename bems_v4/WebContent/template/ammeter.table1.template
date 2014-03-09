@@ -1,0 +1,25 @@
+<!-- 模板内容 -->
+<table width="100%" border="1" align="center">
+<tr bgcolor="#6795B4">
+    <td colspan="2" align="center">基本数据</td>
+  </tr>
+    <tr>
+     <th width="30px">
+          仪表编号
+        </th>
+        <th style="width:25% height="30px">
+           用量(度)
+        </th>
+    </tr>
+    
+    {#foreach $T.table as record}
+    <tr>
+    	<td>
+            {$T.record.id}
+        </td>
+        <td>
+            {$T.record.data}
+        </td>
+    </tr>
+    {#/for}
+</table>

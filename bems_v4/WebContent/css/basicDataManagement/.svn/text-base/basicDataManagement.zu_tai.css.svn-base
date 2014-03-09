@@ -1,0 +1,152 @@
+body {
+	font-size:14px;
+}
+
+#mainDiv {
+    width: 100%;
+    height: 500px;
+    margin-left: 0%;
+	margin-top:20px;
+	/*
+background-image:url(../../images/floor_background.jpg);
+*/
+	 -moz-border-radius: 3px;
+ 	border-radius: 3px;
+    -webkit-border-radius: 3px;
+	-moz-box-shadow: 0px 0px 20px #000000;
+	box-shadow: 0px 0px 20px #000000;
+
+}
+
+.defaultFunctionDivClass {
+    width: 120px;
+    height: 100px;
+    border: 1px solid #708090;
+	/*
+background-color:#d1c289;#808040; #0080ff; #26341b; #ca9680;,#dbd239;
+*/
+	opacity: 0.83;
+
+}
+
+.defaultInstrumentDivClass {
+    width: 25px;
+    height: 25px;
+	background-color:#ffffff;
+}
+
+.description {
+    height: 20px;
+    font-size: 10px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -10px;
+    border: 0px;
+}
+
+select {
+	position:relative;
+	float:none;
+    padding:0px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width: 100px
+}
+
+#basicData_zutai_meunu_bar_div ul li
+{
+	position:relative;
+	float:left;
+}
+
+#basicData_zutai_meunu_bar_div ul li a
+{
+	border:0px;
+	border-radius:3px;
+	margin-right:0px;
+	
+} 
+#basicData_zutai_meunu_bar_div ul li.ui-tabs-selected a 
+{
+	background: #ffffff; 
+	color:#4d4d4d;
+}
+
+#instument_type_div
+{
+	width:53%;
+	height:50px;
+	margin-top:10px;
+	padding-top:10px;
+	padding-left:200px;
+	display:none;
+}
+
+#instument_type_div img
+{
+	width:40px;
+	height:40px;
+}
+
+#tabs_floor_number_select_div
+{
+	position:relative;
+	float:left;
+	margin-right:20px;
+	
+}
+
+#tabs_instrument_develop_div
+{
+	position:relative;
+	float:left;
+}
+
+.tabs_2_handle_height_div
+{
+	height:100px;
+	background-color:#cfcfcf;
+}
+
+#show_instrument_detail_div
+{
+	width:150px;
+	height:200px;
+	background-color:#ffffff;
+	position:absolute;
+	left:50px;
+	top:100px;
+	z-index:10;
+	opacity:0.99;
+	border:4px solid #3778c8;;
+	border-radius:2px;
+}
+#show_instrument_detail_div ul
+{
+	list-style:none;
+}
+#show_instrument_detail_div ul li
+{
+	margin-bottom:5px;
+}
+#show_instrument_detail_div ul li span
+{
+	color:#5e6568;
+}
+#show_instrument_detail_div ul li#amount span
+{
+	color:#2974e4;
+}
+
+
+
+
+
+
+
+
+

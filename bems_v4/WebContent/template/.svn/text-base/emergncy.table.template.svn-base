@@ -1,0 +1,38 @@
+<!-- 模板内容 -->
+<table  width="100%" border="1" align="center">
+	<tr bgcolor="#6795B4">
+    	<td colspan="4" align="center">基本数据</td>
+  	</tr>
+  
+    <tr>
+     <th style="width:25% height="20px">
+          序号
+        </th>
+        <th style="width:25% height="20px">
+            名称
+        </th>
+        <th style="width:25% height="20px">
+           查看/修改
+        </th>
+         <th style="width:25% height="20px">
+           删除
+        </th>
+    </tr>
+    
+    {#foreach $T.table as record}
+    <tr>
+    	<td>
+            {$T.record.id}
+        </td>
+        <td>
+            {$T.record.name}
+        </td>
+        <td>
+            {$T.record.id}
+        </td>
+        <td>
+            {$T.record.name}
+        </td>
+    </tr>
+    {#/for}
+</table>

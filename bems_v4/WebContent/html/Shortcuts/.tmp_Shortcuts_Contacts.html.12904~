@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>通讯录</title>
+<link href="css/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/Shortcuts/Shortcuts_Contact.css">
+<script type="text/javascript" src="js/Shortcuts/Shortcuts_Contact.js"></script>
+
+</head>
+<body>
+<div id="shortcuts_contact_menu_div">
+	
+	<ul>
+		<li><a href="#tabs-1">查看通讯录</a></li>
+		<li><a href="#tabs-2">通讯录</a></li>
+	</ul>
+	
+	<div id="tabs-1">	</div>
+	<div id="tabs-2">	</div>
+
+</body>
+</html>

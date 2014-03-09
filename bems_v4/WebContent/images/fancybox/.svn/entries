@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="223"
+   name=""
+   committed-date="2012-07-18T11:06:30.932955Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/images/fancybox"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="fancy_title_over.png"
+   text-time="2012-07-21T01:40:36.227507Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b886fd165d4b7ac77d41fb52d87ffc60"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:36.199506Z"/>
+<entry
+   committed-rev="223"
+   name="fancybox-x.png"
+   text-time="2012-07-21T01:40:36.233508Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="168696d8a694214090ef90e029cdf393"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:36.203506Z"/>
+<entry
+   committed-rev="223"
+   name="fancybox-y.png"
+   text-time="2012-07-21T01:40:36.241508Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="36a58859beb9a6b19322a37466b9f78e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:36.208506Z"/>
+<entry
+   committed-rev="223"
+   name="blank.gif"
+   text-time="2012-07-21T01:40:36.248509Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="325472601571f31e1bf00674c368d335"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:36.213507Z"/>
+<entry
+   committed-rev="223"
+   name="fancybox.png"
+   text-time="2012-07-21T01:40:36.311512Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="11e57e492ee0311540967cc7a1e6e3e2"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:36.220507Z"/>
+</wc-entries>

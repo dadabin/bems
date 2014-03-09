@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="310"
+   name=""
+   committed-date="2012-07-25T18:13:04.040758Z"
+   url="https://180.84.33.71/svn/code/bems_v4/simulation/cn/cdu/edu/TQC/simulation/timer"
+   last-author="lpm"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="test.java"
+   text-time="2012-07-21T01:40:28.205049Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="3c01242d212fc7d332f6e41919b12ed4"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.143045Z"/>
+<entry
+   committed-rev="223"
+   name="InitMeter.java"
+   text-time="2012-07-21T01:40:28.212049Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7b851256cc349cf895eae54ac3c5a05a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.148045Z"/>
+<entry
+   committed-rev="310"
+   name="UpDateAmmeterTask.java"
+   text-time="2012-07-25T18:12:17.850326Z"
+   committed-date="2012-07-25T18:13:04.040758Z"
+   checksum="48bb87238ae2d2e760cb2700879acc8a"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.159046Z"/>
+<entry
+   committed-rev="310"
+   name="UpDateMeterTask.java"
+   text-time="2012-07-25T18:12:08.475790Z"
+   committed-date="2012-07-25T18:13:04.040758Z"
+   checksum="adbb4d695994bfb4e1a3d9cfabbe57dd"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.184047Z"/>
+<entry
+   committed-rev="223"
+   name="CollectAmmeterData.java"
+   text-time="2012-07-21T01:40:28.237050Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="e0e4762b42f7795c6f17ec9c71f30013"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.189048Z"/>
+<entry
+   committed-rev="223"
+   name="CollectMeterData.java"
+   text-time="2012-07-21T01:40:28.244051Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="53b9e23d5f61f9c28116ff80b5abdd9b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.193048Z"/>
+<entry
+   committed-rev="310"
+   name="InitAmmeter.java"
+   text-time="2012-07-25T18:06:35.271732Z"
+   committed-date="2012-07-25T18:13:04.040758Z"
+   checksum="191a6e43c609e60627a457c41824549e"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:28.197048Z"/>
+</wc-entries>

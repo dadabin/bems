@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="361"
+   name=""
+   committed-date="2012-08-18T15:28:50.498375Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/css/energySave"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="314"
+   name="energySave.look.css"
+   text-time="2012-07-26T00:22:51.410757Z"
+   committed-date="2012-07-26T00:09:59.461972Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-07-26T00:22:51.390757Z"/>
+<entry
+   committed-rev="358"
+   name="energySave.making.css"
+   text-time="2012-08-18T14:30:00.561393Z"
+   committed-date="2012-08-18T13:58:30.970856Z"
+   checksum="c555140aa05bb884eb66ee905e718367"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-08-18T14:30:00.547392Z"/>
+<entry
+   committed-rev="361"
+   name="energySave.makePlane.css"
+   text-time="2012-08-18T15:29:51.127277Z"
+   committed-date="2012-08-18T15:28:50.498375Z"
+   checksum="82c0e25f2739613d8d3600fb4898314f"
+   last-author="qfp"
+   kind="file"
+   prop-time="2012-08-18T15:29:51.127277Z"/>
+</wc-entries>

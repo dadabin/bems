@@ -1,0 +1,37 @@
+select {
+	position:relative;
+	float:none;
+    padding:0px;
+    border: 1px solid #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    -moz-border-radius: 5px;
+    min-width: 100px;
+	font-size:14px;
+	font-weight:lighter;
+}
+
+#plan_material_table
+{
+	width:80%;
+	margin-top:20px;
+}
+#plan_material_div
+{
+	z-index:20;
+}
+#collepse_btn
+{
+	width:500px;
+	
+}
+.energySave_hr
+{
+	background-color:#384dd6;
+	height:2px;
+	
+}
+#container_anylis_separator
+{
+	height:5px;
+	background-color:#666666;
+}

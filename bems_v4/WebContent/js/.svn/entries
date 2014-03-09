@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="360"
+   name=""
+   committed-date="2012-08-18T14:46:23.528701Z"
+   url="https://180.84.33.71/svn/code/bems_v4/WebContent/js"
+   last-author="qfp"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   name="jquery"
+   kind="dir"/>
+<entry
+   name="highcharts"
+   kind="dir"/>
+<entry
+   name="original"
+   kind="dir"/>
+<entry
+   name="dataCollection"
+   kind="dir"/>
+<entry
+   name="basicDataManagement"
+   kind="dir"/>
+<entry
+   name="energySave"
+   kind="dir"/>
+<entry
+   name="template"
+   kind="dir"/>
+<entry
+   name="userManagement"
+   kind="dir"/>
+<entry
+   name="dataAnalysis"
+   kind="dir"/>
+<entry
+   name="plugin"
+   kind="dir"/>
+<entry
+   name="Shortcuts"
+   kind="dir"/>
+</wc-entries>

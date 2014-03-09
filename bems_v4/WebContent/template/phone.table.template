@@ -1,0 +1,31 @@
+<!-- 模板内容 -->
+<table  width="100%" border="1" align="center">
+<tr bgcolor="#6795B4">
+    <td colspan="3" align="center">基本数据</td>
+  </tr>
+
+    <tr>
+        <th style="width:30%">
+            电话号码
+        </th>
+        <th style="width:30%">
+           电话费
+        </th>
+         <th style="width:*">
+           责任人
+        </th>
+    </tr>
+    {#foreach $T.table as record}
+    <tr>
+        <td>
+            {$T.record.phone}
+        </td>
+        <td>
+            {$T.record.fee}
+        </td>
+        <td>
+            {$T.record.responsor}
+        </td>
+    </tr>
+    {#/for}
+</table>

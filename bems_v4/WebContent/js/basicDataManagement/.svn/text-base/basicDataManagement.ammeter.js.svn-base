@@ -1,0 +1,1 @@
+$("table tbody tr:odd").css("background-color","#dcdcde");

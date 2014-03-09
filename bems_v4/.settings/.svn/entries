@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="260"
+   name=""
+   committed-date="2012-07-20T03:07:52.728356Z"
+   url="https://180.84.33.71/svn/code/bems_v4/.settings"
+   last-author="tqc"
+   kind="dir"
+   uuid="02ff48c8-90cc-dc4a-a253-a421a55c1c6b"
+   repos="https://180.84.33.71/svn/code"
+   revision="361"/>
+<entry
+   committed-rev="223"
+   name="org.eclipse.jdt.core.prefs"
+   text-time="2012-07-21T01:40:50.011296Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="6c0e2e10b670a8f99e129152a88ccae1"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.959293Z"/>
+<entry
+   committed-rev="223"
+   name="org.eclipse.wst.jsdt.ui.superType.name"
+   text-time="2012-07-21T01:40:50.020296Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="c89686a387d2b12b3c729ce35a0bcb5b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.968293Z"/>
+<entry
+   committed-rev="223"
+   name="org.eclipse.wst.jsdt.ui.superType.container"
+   text-time="2012-07-21T01:40:50.028297Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="b27d1cf62dde4473bab7c433317bb0ce"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.977294Z"/>
+<entry
+   committed-rev="260"
+   name="org.eclipse.core.resources.prefs"
+   text-time="2012-07-21T01:40:50.037297Z"
+   committed-date="2012-07-20T03:07:52.728356Z"
+   checksum="64517faea93f969617144f7b248e5fe0"
+   last-author="tqc"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.985294Z"/>
+<entry
+   committed-rev="223"
+   name="org.eclipse.wst.common.project.facet.core.xml"
+   text-time="2012-07-21T01:40:50.044298Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="7323144252ae42a6b822bf57cf18e50b"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.990295Z"/>
+<entry
+   committed-rev="223"
+   name=".jsdtscope"
+   text-time="2012-07-21T01:40:50.052298Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="2dfb4ce067f1529d1934162e0152d9b8"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:49.996295Z"/>
+<entry
+   committed-rev="223"
+   name="org.eclipse.wst.common.component"
+   text-time="2012-07-21T01:40:50.059299Z"
+   committed-date="2012-07-18T11:06:30.932955Z"
+   checksum="dfd113eefe27bf7d5d38344259d3063f"
+   last-author="lpm"
+   kind="file"
+   prop-time="2012-07-21T01:40:50.001295Z"/>
+</wc-entries>
